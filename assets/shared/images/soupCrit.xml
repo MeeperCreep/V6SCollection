@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="soupCrit.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="soupy sparklez lmao0000" x="0" y="0" width="202" height="276" frameX="-44" frameY="-30" frameWidth="294" frameHeight="322"/>
+	<SubTexture name="soupy sparklez lmao0001" x="209" y="0" width="225" height="284" frameX="-33" frameY="-27" frameWidth="294" frameHeight="322"/>
+	<SubTexture name="soupy sparklez lmao0002" x="441" y="0" width="280" height="309" frameX="-11" frameY="-10" frameWidth="294" frameHeight="322"/>
+	<SubTexture name="soupy sparklez lmao0003" x="728" y="0" width="294" height="322"/>
+	<SubTexture name="soupy sparklez lol0000" x="0" y="329" width="169" height="201" frameX="-55" frameY="-37" frameWidth="282" frameHeight="268"/>
+	<SubTexture name="soupy sparklez lol0001" x="176" y="329" width="242" height="238" frameX="-26" frameY="-22" frameWidth="282" frameHeight="268"/>
+	<SubTexture name="soupy sparklez lol0002" x="425" y="329" width="279" height="257" frameX="0" frameY="-7" frameWidth="282" frameHeight="268"/>
+	<SubTexture name="soupy sparklez lol0003" x="711" y="329" width="278" height="268" frameX="-4" frameY="0" frameWidth="282" frameHeight="268"/>
+</TextureAtlas>
