@@ -25,11 +25,16 @@ class HealthIcon extends FlxSprite
 		animation.add('gf', [5], 0, false, isPlayer);
 		animation.add('gf-christmas', [5], 0, false, isPlayer);
 		animation.add('gf-pixel', [5], 0, false, isPlayer);
+		animation.add('gf-blockhead', [5], 0, false, isPlayer);
 		animation.add('tankman', [8, 9], 0, false, isPlayer);
 		animation.add('cringeface', [6, 7], 0, false, isPlayer);
 		animation.add('dad', [4, 4], 0, false, isPlayer);
 		animation.add('catsoup', [11, 12], 0, false, isPlayer);
 		animation.add('catsoup-hissed', [13, 13], 0, false, isPlayer);
+		animation.add('milestoner', [50], 0, false, isPlayer);
+		animation.add('catsouper', [51], 0, false, isPlayer);
+		animation.add('catsouper-hiss', [52], 0, false, isPlayer);
+		animation.add('nightcorer', [53], 0, false, isPlayer);
 		animation.play(char);
 
 		switch(char)

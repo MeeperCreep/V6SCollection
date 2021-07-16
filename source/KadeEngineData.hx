@@ -25,6 +25,12 @@ class KadeEngineData
 		
 		if (FlxG.save.data.sickCrits == null)
 			FlxG.save.data.sickCrits = true;
+		
+		if (FlxG.save.data.critAlpha == null)
+			FlxG.save.data.critAlpha = 0.6;
+		
+		if (FlxG.save.data.annoyPop == null)
+			FlxG.save.data.annoyPop = false;
 
 		if (FlxG.save.data.fps == null)
 			FlxG.save.data.fps = false;

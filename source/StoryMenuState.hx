@@ -25,29 +25,20 @@ class StoryMenuState extends MusicBeatState
 
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
-		['Milestone', 'Catsoup', 'Nightcore'],
-		['Milestone', 'Requested', 'Souper'],
-		['Hiss', 'Catsoup', 'K-Block'],
-		['Nightcore', 'Spacecore', 'Creative Mode']
+		['Milestone', 'Catsoup', 'Nightcore']
 	];
 	var curDifficulty:Int = 0;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, false, false, false];
+	public static var weekUnlocked:Array<Bool> = [true, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['', 'bf', 'gf'],
-		['catsoup', 'bf', 'gf'],
-		['catsoup', 'bf', 'gf'],
-		['catsoup', 'bf', 'gf'],
 		['catsoup', 'bf', 'gf']
 	];
 
 	var weekNames:Array<String> = [
 		"How to Funk",
 		"Note Block Noraebang",
-		"The Milestone Collection",
-		"The Catsoup Collection",
-		"The Nightcore Collection"
 	];
 
 	var txtWeekTitle:FlxText;

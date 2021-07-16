@@ -59,6 +59,7 @@ class OptionsMenu extends MusicBeatState
 			#end
 			new FlashingLightsOption("Toggle flashing lights that can cause epileptic seizures and strain."),
 			new WatermarkOption("Enable and disable all watermarks from the engine."),
+			new StupidAnnoyingPopSFX("Plays a sound effect whenever you hit a SICK note."),
 			new BotPlay("Showcase your charts and mods with autoplay.")
 		])
 		

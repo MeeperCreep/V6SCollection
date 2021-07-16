@@ -24,10 +24,14 @@ pause >nul
 title FNF Setup - Installing libraries
 haxelib git polymod https://github.com/larsiusprime/polymod.git
 cls
-echo Press any key to install discord rpc.
+echo Press any key to install libraries used in this mod.
 pause >nul
 title FNF Setup - Installing libraries
+haxelib install random
+haxelib install actuate
+haxelib git extension-webm https://github.com/GrowtopiaFli/openfl-haxeflixel-video-code
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+lime rebuild extension-webm windows
 cls
 goto UserActions1
 

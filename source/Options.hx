@@ -227,6 +227,7 @@ class SparkleEffectOnSickNotes extends Option
 	{
 		super();
 		description = desc;
+		acceptValues = true;
 	}
 	public override function press():Bool
 	{
@@ -237,6 +238,74 @@ class SparkleEffectOnSickNotes extends Option
 	public override function updateDisplay():String
 	{
 		return "Note Sparkles " + (!FlxG.save.data.sickCrits ? "off" : "on");
+	}
+	
+	// putting it all in one option because yay for efficiency!
+	// though i dont think most people read the text at the bottom =^=
+	override function left():Bool
+	{	
+		FlxG.save.data.critAlpha -= 0.05;
+
+		if (FlxG.save.data.critAlpha < 0.25)
+			FlxG.save.data.critAlpha = 0.25;
+
+		if (FlxG.save.data.critAlpha > 1)
+			FlxG.save.data.critAlpha = 1;
+
+		return true;
+	}
+
+	override function right():Bool
+	{	
+		FlxG.save.data.critAlpha += 0.05;
+
+		if (FlxG.save.data.critAlpha < 0.25)
+			FlxG.save.data.critAlpha = 0.25;
+
+		if (FlxG.save.data.critAlpha > 1)
+			FlxG.save.data.critAlpha = 1;
+
+		return true;
+	}
+
+	override function getValue():String
+	{
+		var sparkCheck:String = "";
+		// for some reason, going from opaque, default doesn't show up anymore, but if you go to faint then it shows up again. real weird.
+		if (FlxG.save.data.critAlpha == 0.6) {
+			sparkCheck = " [DEFAULT]";
+		};
+		
+		if (FlxG.save.data.critAlpha == 1) {
+			sparkCheck = " [OPAQUE]";
+		};
+		
+		if (FlxG.save.data.critAlpha == 0.25) {
+			sparkCheck = " [FAINT]";
+		};
+		
+		return "Note Sparkle Opacity: " + FlxG.save.data.critAlpha + sparkCheck + " (Left, Right)";
+	}
+}
+
+class StupidAnnoyingPopSFX extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.save.data.annoyPop = !FlxG.save.data.annoyPop;
+		display = updateDisplay();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return FlxG.save.data.annoyPop ? "Pop SFX Enabled" : "No Annoying Sound";
 	}
 }
 
@@ -356,8 +425,6 @@ class FPSOption extends Option
 		return "FPS Counter " + (!FlxG.save.data.fps ? "off" : "on");
 	}
 }
-
-
 
 class FPSCapOption extends Option
 {
@@ -631,5 +698,5 @@ class BotPlay extends Option
 	}
 	
 	private override function updateDisplay():String
-		return "BotPlay " + (FlxG.save.data.botplay ? "on" : "off");
+		return "AutoPlay " + (FlxG.save.data.botplay ? "on" : "off");
 }

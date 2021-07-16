@@ -152,6 +152,8 @@ class PlayState extends MusicBeatState
 
 	var notesHitArray:Array<Date> = [];
 	var currentFrames:Int = 0;
+	
+	var popCat:FlxSound; //a yes, very annoying
 
 	public var dialogue:Array<String> = ['dad:blah blah blah', 'bf:coolswag'];
 
@@ -175,6 +177,8 @@ class PlayState extends MusicBeatState
 	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 
+	var redlight:FlxSprite;
+	var alrActive:Bool = false;
 	var mobsters:FlxSprite;
 	var daSoupers:FlxSprite;
 
@@ -336,6 +340,18 @@ class PlayState extends MusicBeatState
 				dialogue = CoolUtil.coolTextFile(Paths.txt('roses/rosesDialogue'));
 			case 'thorns':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('thorns/thornsDialogue'));
+			case 'milestone':
+				dialogue = [
+					'HEY!',
+					"Huh?",
+					"Wanna rap?",
+					"I only have noteblocks...",
+					"Hmmmm....",
+					"A-ha! Ill break my mic and jam a noteblock into it, genius!",
+					"Ill just put mine on a stick",
+					"Ready?",
+					"Les go!"
+			];
 		}
 
 		switch(SONG.stage)
@@ -349,6 +365,18 @@ class PlayState extends MusicBeatState
 						bg.scrollFactor.set(0.9, 0.9);
 						bg.active = false;
 						add(bg);
+						
+						redlight = new FlxSprite(-600, -300);
+						redlight.frames = Paths.getSparrowAtlas('memesmith/repeaterStream','weekseub');
+						redlight.animation.addByPrefix('activate', 'redlight', 24, false);
+						redlight.antialiasing = true;
+						redlight.alpha = 0.8;
+						redlight.scrollFactor.set(0.9, 0.9);
+						redlight.updateHitbox();
+						
+						if(FlxG.save.data.distractions){
+							add(redlight);
+					}
 				}
 			case 'monstersSpawning':
 				{
@@ -360,8 +388,20 @@ class PlayState extends MusicBeatState
 						bg.active = false;
 						add(bg);
 						
+						redlight = new FlxSprite(-600, -300);
+						redlight.frames = Paths.getSparrowAtlas('memesmith/repeaterStream','weekseub');
+						redlight.animation.addByPrefix('activate', 'redlight', 24, false);
+						redlight.antialiasing = true;
+						redlight.alpha = 0.8;
+						redlight.scrollFactor.set(0.9, 0.9);
+						redlight.updateHitbox();
+						
+						if(FlxG.save.data.distractions){
+							add(redlight);
+						}
+						
 						mobsters = new FlxSprite(100, 230);
-						mobsters.frames = Paths.getSparrowAtlas('memesmith/threewoolandthreewoodenplanks','weekseub');
+						mobsters.frames = Paths.getSparrowAtlas('memesmith/threewoolandthreewoodenplanks/light_level_7','weekseub');
 						mobsters.animation.addByPrefix('bop', 'Beatboxing Mobs', 24, false);
 						mobsters.antialiasing = true;
 						mobsters.scrollFactor.set(0.9, 0.9);
@@ -370,20 +410,20 @@ class PlayState extends MusicBeatState
 						
 						if(FlxG.save.data.distractions){
 							add(mobsters);
-					}
+						}
 				}
 			case 'nightcore':
 				{
-						defaultCamZoom = 1;
+						defaultCamZoom = 0.8;
 						curStage = 'nightcore';
 						var bg:FlxSprite = new FlxSprite(-600, -270).loadGraphic(Paths.image('memesmith/nbs_rave','weekseub'));
 						bg.antialiasing = true;
 						bg.scrollFactor.set(0.9, 0.9);
 						bg.active = false;
 						add(bg);
-						
+					
 						daSoupers = new FlxSprite(-60, 130);
-						daSoupers.frames = Paths.getSparrowAtlas('memesmith/meandtheboysboppingatphase3','weekseub');
+						daSoupers.frames = Paths.getSparrowAtlas('memesmith/meandtheboysboppingatphase3/nightcore_crowd','weekseub');
 						daSoupers.animation.addByPrefix('bop', 'Nightcore Encore', 24, false);
 						daSoupers.antialiasing = true;
 						daSoupers.scrollFactor.set(0.9, 0.9);
@@ -392,7 +432,7 @@ class PlayState extends MusicBeatState
 						
 						if(FlxG.save.data.distractions){
 							add(daSoupers);
-					}
+						}
 				}
 						
 			case 'stage':
@@ -456,6 +496,8 @@ class PlayState extends MusicBeatState
 		{
 			case 'gf-christmas':
 				gfVersion = 'gf-christmas';
+			case 'gf-blockhead':
+				gfVersion = 'gf-blockhead';
 			default:
 				gfVersion = 'gf';
 		}
@@ -503,7 +545,7 @@ class PlayState extends MusicBeatState
 				dad.x -= 150;
 				dad.y += 100;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
-			case "catsoup":
+			case 'catsoup':
 				dad.y += 360;
 				dad.x += 100;
 		}
@@ -2310,7 +2352,7 @@ class PlayState extends MusicBeatState
 			// trace('Wife accuracy loss: ' + wife + ' | Rating: ' + daRating + ' | Score: ' + score + ' | Weight: ' + (1 - wife));
 
 			if (daRating != 'shit' || daRating != 'bad')
-				{
+			{
 	
 	
 			songScore += Math.round(score);
@@ -2444,7 +2486,7 @@ class PlayState extends MusicBeatState
 			
 			var critHit:FlxSprite = new FlxSprite(daNote.x - 95 , strumLine.y - 100);
 			
-			critHit.frames = Paths.getSparrowAtlas('soupCrit', 'shared');
+			critHit.frames = Paths.getSparrowAtlas('soupCrit');
 			
 			critHit.animation.addByPrefix('noteCrit-lol', 'soupy sparklez lol', 24, false);
 			critHit.animation.addByPrefix('noteCrit-lmao', 'soupy sparklez lmao', 24, false);
@@ -2454,22 +2496,28 @@ class PlayState extends MusicBeatState
 			{
 				if (FlxG.save.data.sickCrits)
 				{
-				add(critHit);
-				critHit.animation.play('noteCrit-' + Random.fromArray(['lol','lmao']), true);
-				critHit.cameras = [camHUD];
-				critHit.alpha = 0.6;
-				critHit.offset.x += 90;
-				critHit.offset.y += 80;
+					add(critHit);
+					critHit.animation.play('noteCrit-' + Random.fromArray(['lol','lmao']), true);
+					critHit.cameras = [camHUD];
+					critHit.alpha = FlxG.save.data.critAlpha;
+					critHit.offset.x += 90;
+					critHit.offset.y += 80;
+					
+					new FlxTimer().start(0.208, function(tmr:FlxTimer)
+					{
+						critHit.kill();
+					});
+				}
 				
-				new FlxTimer().start(0.208, function(tmr:FlxTimer)
+				if (FlxG.save.data.annoyPop)
 				{
-					critHit.kill();
-				});
+					popCat = new FlxSound().loadEmbedded(Paths.sound('pop'), false, false);
+					popCat.volume = 0.7;
+					popCat.play();
 				}
 			}
 			
 			critHit.updateHitbox();
-
 
 			var seperatedScore:Array<Int> = [];
 	
@@ -3074,6 +3122,14 @@ class PlayState extends MusicBeatState
 		boyfriend.playAnim('scared', true);
 		gf.playAnim('scared', true);
 	}
+	
+	function noteblockChoirsPlayingintheSunshine():Void
+	{
+		redlight.animation.play('activate', true);
+
+		noteblockoBeat = curBeat;
+		noteblockoOffset = FlxG.random.int(8, 24);
+	}
 
 	var danced:Bool = false;
 
@@ -3110,6 +3166,9 @@ class PlayState extends MusicBeatState
 
 	var lightningStrikeBeat:Int = 0;
 	var lightningOffset:Int = 8;
+	
+	var noteblockoBeat:Int = 0;
+	var noteblockoOffset:Int = 8;
 
 	override function beatHit()
 	{
@@ -3195,28 +3254,35 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
-		
+			case 'redstoneReady':
+				if (!alrActive && FlxG.random.bool(30) && curBeat > noteblockoBeat + noteblockoOffset)
+				{
+					if(FlxG.save.data.distractions){
+						alrActive = true;
+						noteblockChoirsPlayingintheSunshine();
+						new FlxTimer().start(5, function(tmr:FlxTimer)
+						{alrActive = false;});
+					}
+				}
 			case 'monstersSpawning':
 				if(FlxG.save.data.distractions){
 					mobsters.animation.play('bop', true);
+				};
+				
+				if (!alrActive && FlxG.random.bool(10) && curBeat > noteblockoBeat + noteblockoOffset)
+				{
+					if(FlxG.save.data.distractions){
+						alrActive = true;
+						noteblockChoirsPlayingintheSunshine();
+						new FlxTimer().start(5, function(tmr:FlxTimer)
+						{alrActive = false;});
+					}
 				}
 
 			case 'nightcore':
 				if(FlxG.save.data.distractions){
 					daSoupers.animation.play('bop', true);
-				}
-
-			case 'school':
-				if(FlxG.save.data.distractions){
-					bgGirls.dance();
-				}
-
-			case 'mall':
-				if(FlxG.save.data.distractions){
-					upperBoppers.animation.play('bop', true);
-					bottomBoppers.animation.play('bop', true);
-					santa.animation.play('idle', true);
-				}
+				};
 
 			case 'limo':
 				if(FlxG.save.data.distractions){

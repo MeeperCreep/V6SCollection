@@ -13,6 +13,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	var camFollow:FlxObject;
 
 	var stageSuffix:String = "";
+	var path:String = '';
 
 	public function new(x:Float, y:Float)
 	{
@@ -23,8 +24,10 @@ class GameOverSubstate extends MusicBeatSubstate
 			case 'bf-blockhead':
 				stageSuffix = '_noteblock';
 				daBf = 'bf-blockhead';
+				path = 'weekseub';
 			default:
 				daBf = 'bf';
+				path = 'shared';
 		}
 
 		super();
@@ -75,7 +78,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		if (bf.animation.curAnim.name == 'firstDeath' && bf.animation.curAnim.finished)
 		{
-			FlxG.sound.playMusic(Paths.music('gameOver' + stageSuffix));
+			FlxG.sound.playMusic(Paths.music('gameOver' + stageSuffix,path));
 		}
 
 		if (FlxG.sound.music.playing)
@@ -100,7 +103,7 @@ class GameOverSubstate extends MusicBeatSubstate
 			isEnding = true;
 			bf.playAnim('deathConfirm', true);
 			FlxG.sound.music.stop();
-			FlxG.sound.play(Paths.music('gameOverEnd' + stageSuffix));
+			FlxG.sound.play(Paths.music('gameOverEnd' + stageSuffix,path));
 			new FlxTimer().start(0.7, function(tmr:FlxTimer)
 			{
 				FlxG.camera.fade(FlxColor.BLACK, 2, false, function()

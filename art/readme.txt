@@ -1,4 +1,4 @@
-                                             
+
  		  &&&&&&&                                    
  		  &&&&&&&&&                            &&&&&&&
  		  &&&&&&&&&&&&                       &&&&&&&&&&
@@ -16,11 +16,11 @@
 		        &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 		             &&&&&&&&&&&&&&&&&&&&&
 
-			   Thanks for downloding
-		   __   _____    __ ___  ___  _   _ ___ 
- 		   \ \ / / __|  / // __|/ _ \| | | | _ \
-		    \ V /\__ \ / _ \__ \ (_) | |_| |  _/
-		     \_/ |___/ \___/___/\___/ \___/|_|                   
+			   ✧  Thanks for downloding ✧
+		      __   _____    __ ___  ___  _   _ ___ 
+		      \ \ / / __|  / // __|/ _ \| | | | _ \
+		       \ V /\__ \ / _ \__ \ (_) | |_| |  _/
+			\_/ |___/ \___/___/\___/ \___/|_|                   
    ___ ___  _    _    ___ ___ _____ ___ ___  _  _   _   _ ___ ___   _ _____ ___ 
   / __/ _ \| |  | |  | __/ __|_   _|_ _/ _ \| \| | | | | | _ \   \ /_\_   _| __|
  | (_| (_) | |__| |__| _| (__  | |  | | (_) | .` | | |_| |  _/ |) / _ \| | | _| 
@@ -31,24 +31,32 @@ A revamp of my first FNF mod, with tons of revamp and more polish.
 
 So what is new anyway?
 
-<changelog>
+<changelog> // this will be filled up with all the changelog of the pre-patches once it becomes 2.0
 
 ✿°。===========  C R E D I T S  ===========✿°
 
 >> Meeper Creepertown <<
-(One and Only Mod Creator -- Artist, Composer, Scripter, Story)
+(One and Only Mod Creator -- Did almost everything, but had some help with the friends below)
 == CONTACT INFO ==
 YouTube: https://www.youtube.com/c/MeeperCreepertownChannel
 Twitter: https://twitter.com/MeeperCrprtwn (Protected but you can DM me, at least I think)
 Reddit: https://www.reddit.com/user/MeeperCreeprtown
-Discord: MeeperCreep#7647
+Discord ID: 272781015628382208
 
 >> Skookie <<
 [One and Only Charter -- Charter]
 == CONTACT INFO ==
 YouTube: https://www.youtube.com/channel/UCWLzjD5DIvKSGC_iM6A02Lw
-Discord: constantly changes his ign so take this discord id instead [280305853284876288] and go to https://discord.id/
+Discord ID: 280305853284876288
 
+>> SuperWillGaming <<
+(One and Only Bagel Lover -- Cutscene Video and Audio Editor)
+== CONTACT INFO ==
+YouTube: https://www.youtube.com/user/MrShane233838
+Twitter: https://twitter.com/njsw88
+Discord ID: 196589872125968384
+
+Go to https://discord.id/ and enter the Discord IDs to get out current username. There's no telling that our username and numbers can change in the future, so better safe than sorry.
 
 Special thanks to the people that helped me learn how to mod:
 
@@ -60,12 +68,13 @@ https://gamebanana.com/tuts/13798
 
 Special thanks to the contributors of the original VS 6Soup Mod:
 
-Daniel Memesmith
-Barkofriend
-NeoNuke
-Whitty347
+Daniel Memesmith -- literally cringe
+Barkofriend -- literally boyfriend fnf
+NeoNuke -- literally lemon demon fnf
+Whitty347 -- literally whitty fnf
 
-============================================
+
+<==========================================>
 
 Friday Night Funkin' is made by ninjamuffin99 (programmer), PhantomArcade (animator), kawaisprite (musician), and evilsk8r (artist)
 
@@ -119,4 +128,4 @@ BIT BOY - MIKE WELSH
                                       /      /                                    
                                                                                   
 ##################################################################################
-dunno why your expecting this to be popular meeper--shut up
+dunno why your expecting this to be popular meeper--shut up, me

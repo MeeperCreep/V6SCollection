@@ -25,15 +25,13 @@ class Character extends FlxSprite
 		curCharacter = character;
 		this.isPlayer = isPlayer;
 
-		var tex:FlxAtlasFrames;
 		antialiasing = true;
 
 		switch (curCharacter)
 		{
 			case 'gf':
 				// GIRLFRIEND CODE
-				tex = Paths.getSparrowAtlas('characters/GF_assets');
-				frames = tex;
+				frames = Paths.getSparrowAtlas('characters/GF_assets');
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
 				animation.addByPrefix('singRIGHT', 'GF Right Note', 24, false);
@@ -63,8 +61,7 @@ class Character extends FlxSprite
 				playAnim('danceRight');
 
 			case 'gf-christmas':
-				tex = Paths.getSparrowAtlas('characters/gfChristmas');
-				frames = tex;
+				frames = Paths.getSparrowAtlas('characters/gfChristmas');
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
 				animation.addByPrefix('singRIGHT', 'GF Right Note', 24, false);
@@ -92,11 +89,24 @@ class Character extends FlxSprite
 				addOffset('scared', -2, -17);
 
 				playAnim('danceRight');
+				
+			case 'gf-blockhead':
+				frames = Paths.getSparrowAtlas('characters/GorlFriend_Block_Assets');
+				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
+				animation.addByIndices('sad', 'gf sad', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "", 24, false);
+				animation.addByIndices('danceLeft', 'GF Dancing Beat', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
+				animation.addByIndices('danceRight', 'GF Dancing Beat', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+
+				addOffset('cheer');
+				addOffset('sad', -2, -2);
+				addOffset('danceLeft', 0, -9);
+				addOffset('danceRight', 0, -9);
+
+				playAnim('danceRight');
 
 			case 'dad':
 				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/DADDY_DEAREST', 'shared');
-				frames = tex;
+				frames = Paths.getSparrowAtlas('characters/DADDY_DEAREST');
 				animation.addByPrefix('idle', 'Dad idle dance', 24);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24);
 				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24);
@@ -112,11 +122,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'bf':
-				var tex = Paths.getSparrowAtlas('characters/BOYFRIEND', 'shared');
-				frames = tex;
-
-				trace(tex.frames.length);
-
+				frames = Paths.getSparrowAtlas('characters/BOYFRIEND');
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
 				animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
@@ -154,8 +160,7 @@ class Character extends FlxSprite
 				flipX = true;
 
 			case 'bf-christmas':
-				var tex = Paths.getSparrowAtlas('characters/bfChristmas');
-				frames = tex;
+				frames = Paths.getSparrowAtlas('characters/bfChristmas');
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
 				animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
@@ -184,7 +189,6 @@ class Character extends FlxSprite
 
 			case 'bf-blockhead':
 				frames = Paths.getSparrowAtlas('characters/BoyFriend_Block_Assets');
-
 				animation.addByPrefix('idle', 'Block idle bob', 24, false);
 				animation.addByPrefix('singUP', 'Block NOTE UP', 24, false);
 				animation.addByPrefix('singLEFT', 'Block NOTE LEFT', 24, false);
@@ -244,8 +248,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'catsoup':
-				tex = Paths.getSparrowAtlas('characters/CatSoup');
-				frames = tex;
+				frames = Paths.getSparrowAtlas('characters/CatSoup');
 				animation.addByPrefix('idle', 'catsoup idle', 24);
 				animation.addByPrefix('singUP', 'catsoup up', 24);
 				animation.addByPrefix('singRIGHT', 'catsoup right', 24);
@@ -340,6 +343,17 @@ class Character extends FlxSprite
 					}
 
 				case 'gf-christmas':
+					if (!animation.curAnim.name.startsWith('hair'))
+					{
+						danced = !danced;
+
+						if (danced)
+							playAnim('danceRight');
+						else
+							playAnim('danceLeft');
+					}
+					
+				case 'gf-blockhead':
 					if (!animation.curAnim.name.startsWith('hair'))
 					{
 						danced = !danced;

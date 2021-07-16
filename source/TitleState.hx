@@ -163,8 +163,8 @@ class TitleState extends MusicBeatState
 		// bg.updateHitbox();
 		add(bg);
 
-		logoBl = new FlxSprite(-150, -100);
-		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
+		logoBl = new FlxSprite(-20, -40);
+		logoBl.frames = Paths.getSparrowAtlas('newlogoBumpin');
 		logoBl.antialiasing = true;
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
 		logoBl.animation.play('bump');
@@ -430,7 +430,7 @@ class TitleState extends MusicBeatState
 				addMoreText('VS');
 			// credTextShit.visible = true;
 			case 14:
-				addMoreText('Soup');
+				addMoreText('6Soup');
 			// credTextShit.text += '\nNight';
 			case 15:
 				addMoreText('Collection'); // credTextShit.text += '\nFunkin';
@@ -451,6 +451,8 @@ class TitleState extends MusicBeatState
 			FlxG.camera.flash(FlxColor.WHITE, 4);
 			remove(credGroup);
 			skippedIntro = true;
+			
+			trace("Les go");
 		}
 	}
 }
