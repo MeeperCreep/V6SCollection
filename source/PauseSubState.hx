@@ -28,15 +28,19 @@ class PauseSubState extends MusicBeatSubstate
 	var pauseMusic:FlxSound;
 	var perSongOffset:FlxText;
 	
+	var calmDown:String = 'calm1';
+	
 	var offsetChanged:Bool = false;
 
 	public function new(x:Float, y:Float)
 	{
 		super();
-
-		pauseMusic = new FlxSound().loadEmbedded(Paths.music(Random.fromArray(['calm1','calm2','calm3'])), true, true);
+		
+		calmDown = Random.fromArray(['calm1','calm2','calm3']);
 		// yes, I added randomized pause music for the 3 iconic calm songs in minecraft :>
 		// yes, I also know that this is absolutely fucking pointless but i love it
+
+		pauseMusic = new FlxSound().loadEmbedded(Paths.music(calmDown), true, true);
 		pauseMusic.volume = 0;
 		pauseMusic.play(false, FlxG.random.int(0, Std.int(pauseMusic.length / 2)));
 
@@ -81,7 +85,7 @@ class PauseSubState extends MusicBeatSubstate
 		FlxTween.tween(bg, {alpha: 0.6}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(levelInfo, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
 		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
-		FlxTween.tween(creditToTheLegend, {alpha: 0.5, y: creditToTheLegend.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.7});
+		FlxTween.tween(creditToTheLegend, {alpha: 0.5, y: creditToTheLegend.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.9});
 
 		grpMenuShit = new FlxTypedGroup<Alphabet>();
 		add(grpMenuShit);
@@ -231,7 +235,7 @@ class PauseSubState extends MusicBeatSubstate
 
 		super.destroy();
 	}
-
+	
 	function changeSelection(change:Int = 0):Void
 	{
 		curSelected += change;

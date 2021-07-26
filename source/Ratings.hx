@@ -25,8 +25,9 @@ class Ratings
 
         // WIFE TIME :)))) (based on Wife3)
 		// Shut up Kade, we don't need a billion accuracy checks for 99.75 or 99.9999
+		// MEEP TIME :)))) (based on my preferences lol)
 
-        var wifeConditions:Array<Bool> = [
+        var meepConditions:Array<Bool> = [
             accuracy == 100, // SS
 			accuracy >= 99, // S++
             accuracy >= 97, // S+
@@ -46,9 +47,9 @@ class Ratings
             accuracy < 63 // F bro you actually suck :(
         ];
 
-        for(i in 0...wifeConditions.length)
+        for(i in 0...meepConditions.length)
         {
-            var b = wifeConditions[i];
+            var b = meepConditions[i];
             if (b)
             {
                 switch(i)
@@ -119,7 +120,7 @@ class Ratings
 	if (FlxG.save.data.botplay)
 	    return "good"; // FUNNY
 	    
-        if (noteDiff > 166 * customTimeScale) // so god damn early its a miss
+        if (noteDiff > 166 * customTimeScale) // so god damn fuckin early its a miss
             return "miss";
         if (noteDiff > 135 * customTimeScale) // way early
             return "shit";
@@ -133,7 +134,7 @@ class Ratings
             return "bad";
         else if (noteDiff < -135 * customTimeScale) // late as fuck
             return "shit";
-        else if (noteDiff < -166 * customTimeScale) // so god damn late its a miss
+        else if (noteDiff < -166 * customTimeScale) // so god damn fucking late its a miss
             return "miss";
         return "sick";
     }

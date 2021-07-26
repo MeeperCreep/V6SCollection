@@ -40,7 +40,7 @@ class DiscordClient
 			details: "In the Main Menu",
 			state: null,
 			largeImageKey: 'icon_ce',
-			largeImageText: "With 300% more soup"
+			largeImageText: "Milestone Collection Update"
 		});
 	}
 
@@ -76,7 +76,7 @@ class DiscordClient
 			details: details,
 			state: state,
 			largeImageKey: 'icon_ce',
-			largeImageText: "With 300% more soup",
+			largeImageText: "Milestone Collection Update",
 			smallImageKey : smallImageKey,
 			// Obtained times are in milliseconds so they are divided so Discord can use it
 			startTimestamp : Std.int(startTimestamp / 1000),

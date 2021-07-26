@@ -88,7 +88,7 @@ class VideoState extends MusicBeatState
 		txt.screenCenter();
 		add(txt);
 		
-		skipTxt = new FlxText(FlxG.width / 1.5, FlxG.height - 50, FlxG.width, 'Hold ANY KEY to skip', 32);
+		skipTxt = new FlxText(FlxG.width / 1.5, FlxG.height - 50, FlxG.width, 'Keep holding to skip', 32);
 		skipTxt.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, LEFT);
 
 		if (GlobalVideo.isWebm)

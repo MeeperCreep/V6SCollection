@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': VS 6Soup Collection" file="V6SCollection" packageName="com.kadedev.kadeengine" package="com.kadedev.kadeengine" main="Main" version="1.2" company="kadedev" />
+	<app title="Friday Night Funkin': VS 6Soup Collection [1/3]" file="V6SCollection" packageName="com.kadedev.kadeengine" package="com.kadedev.kadeengine" main="Main" version="1.2" company="kadedev" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -104,10 +104,10 @@
 	<haxelib name="discord_rpc" if="windows"/>
 	<haxelib name="linc_luajit" if="windows"/>
 	
-	<!-- RNG shit I installed for random minecraft song in pause lmao -->
+	<!-- Unnecessary RNG shit I originally installed just for random minecraft song in pause lmao -->
 	<haxelib name="random" />
-
-	<!-- Shit for the shitty cutscenes -->
+	
+	<!-- Cutscene player shit bcuz my plan to make the comics act similar to dialogue boxes but with images instead didn't work out :( -->
 	<haxelib name="actuate" />
 	<haxelib name="extension-webm" if="desktop" />
 

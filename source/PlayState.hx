@@ -276,9 +276,26 @@ class PlayState extends MusicBeatState
 		}
 
 		// String that contains the mode defined here so it isn't necessary to call changePresence for each mode
+		
+		var collState:String = "";
+		
 		if (isStoryMode)
 		{
-			detailsText = "Story Mode";
+			switch (storyWeek)
+			{
+				case 0:
+					collState = "Tutorial";
+				case 1:
+					collState = "Milestone Coll.";
+				case 2:
+					collState = "Catsoup Coll.";
+				case 3:
+					collState = "Nightcore Coll.";
+				case 4:
+					collState = "Week 습";
+			}
+			
+			detailsText = "Story Mode" + " | " + collState;
 		}
 		else
 		{
@@ -342,15 +359,15 @@ class PlayState extends MusicBeatState
 				dialogue = CoolUtil.coolTextFile(Paths.txt('thorns/thornsDialogue'));
 			case 'milestone':
 				dialogue = [
-					'HEY!',
-					"Huh?",
-					"Wanna rap?",
-					"I only have noteblocks...",
-					"Hmmmm....",
-					"A-ha! Ill break my mic and jam a noteblock into it, genius!",
-					"Ill just put mine on a stick",
-					"Ready?",
-					"Les go!"
+					':bf:HEY!',
+					":dad:Huh?",
+					":bf:Wanna rap?",
+					":dad:I only have noteblocks...",
+					":bf:Hmmmm....",
+					":bf:A-ha! Ill break my mic and jam a noteblock into it, genius!",
+					":dad:Ill just put mine on a stick",
+					":bf:Ready?",
+					":dad:Les go!"
 			];
 		}
 
@@ -414,7 +431,7 @@ class PlayState extends MusicBeatState
 				}
 			case 'nightcore':
 				{
-						defaultCamZoom = 0.8;
+						defaultCamZoom = 0.9;
 						curStage = 'nightcore';
 						var bg:FlxSprite = new FlxSprite(-600, -270).loadGraphic(Paths.image('memesmith/nbs_rave','weekseub'));
 						bg.antialiasing = true;
@@ -701,13 +718,13 @@ class PlayState extends MusicBeatState
 		healthBar.scrollFactor.set();
 		healthBar.createFilledBar(0xFFFF0000, 0xFF66FF33);
 		
-		if(SONG.song.toLowerCase()=='milestone' || SONG.song.toLowerCase()=='requested' || SONG.song.toLowerCase()=='souper' || SONG.song.toLowerCase()=='catsoup' || SONG.song.toLowerCase()=='k-block' || SONG.song.toLowerCase()=='nightcore' || SONG.song.toLowerCase()=='spacecore'  )
+		if(dad.curCharacter == 'catsoup')
 		{
 			healthBar.createFilledBar(0xFF552211, 0xFF66FF33);
 		};
-		if(SONG.song.toLowerCase()=='hiss'  )
+		if(dad.curCharacter== 'catsoup-hissed')
 		{
-			healthBar.createFilledBar(0xFFA72211, 0xFF66FF90);
+			healthBar.createFilledBar(0xFF842211, 0xFFAEFF69);
 		}
 		
 		// healthBar
@@ -733,7 +750,7 @@ class PlayState extends MusicBeatState
 		add(scoreTxt);
 
 		replayTxt = new FlxText(healthBarBG.x + healthBarBG.width / 2 - 75, healthBarBG.y + (FlxG.save.data.downscroll ? 100 : -100), 0, "REPLAY", 20);
-		replayTxt.setFormat(Paths.font("vcr.ttf"), 42, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+		replayTxt.setFormat(Paths.font("minecraftia.ttf"), 42, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
 		replayTxt.scrollFactor.set();
 		if (loadRep)
 		{
@@ -2213,12 +2230,17 @@ class PlayState extends MusicBeatState
 
 				if (storyPlaylist.length <= 0)
 				{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
-
 					transIn = FlxTransitionableState.defaultTransIn;
 					transOut = FlxTransitionableState.defaultTransOut;
-
-					FlxG.switchState(new StoryMenuState());
+					
+					switch (PlayState.SONG.song.toLowerCase()) {
+						case 'souped up':
+							FlxG.sound.playMusic(Paths.music('warm_soup', 'weekseub'));
+							FlxG.switchState(new PatienceSubState());
+						default:
+							FlxG.sound.playMusic(Paths.music('freakyMenu'));
+							FlxG.switchState(new StoryMenuState());
+					}
 
 					#if windows
 					if (luaModchart != null)
@@ -2229,7 +2251,7 @@ class PlayState extends MusicBeatState
 					#end
 
 					// if ()
-					StoryMenuState.weekUnlocked[Std.int(Math.min(storyWeek + 1, StoryMenuState.weekUnlocked.length - 1))] = true;
+					// StoryMenuState.weekUnlocked[Std.int(Math.min(storyWeek + 1, StoryMenuState.weekUnlocked.length - 1))] = true;
 
 					if (SONG.validScore)
 					{
@@ -2265,10 +2287,18 @@ class PlayState extends MusicBeatState
 					FlxTransitionableState.skipNextTransOut = true;
 					prevCamFollow = camFollow;
 
-					PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + difficulty, PlayState.storyPlaylist[0]);
+					PlayState.SONG = Song.loadFromJson(StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase() + difficulty, StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase());
 					FlxG.sound.music.stop();
-
-					LoadingState.loadAndSwitchState(new PlayState());
+					switch (PlayState.storyPlaylist[0].toLowerCase()) {
+					/*	case 'catsoup':
+							if (storyWeek == 2) {
+								LoadingState.loadAndSwitchState(new VideoState("assets/videos/<videonamehere>.webm", new PlayState()));
+							} else {
+								LoadingState.loadAndSwitchState(new PlayState());
+							}*/
+						default:
+							LoadingState.loadAndSwitchState(new PlayState());
+					}
 				}
 			
 			}
@@ -3125,10 +3155,13 @@ class PlayState extends MusicBeatState
 	
 	function noteblockChoirsPlayingintheSunshine():Void
 	{
+		// using week 2 lightning logic to randomize the repeater stream
+		// p.s. i dont even know if it works like the way i intended it too but fuck it
 		redlight.animation.play('activate', true);
 
 		noteblockoBeat = curBeat;
 		noteblockoOffset = FlxG.random.int(8, 24);
+		alrDelay = Random.int(20,30);
 	}
 
 	var danced:Bool = false;
@@ -3140,6 +3173,14 @@ class PlayState extends MusicBeatState
 		{
 			resyncVocals();
 		}
+		
+		if (SONG.song.toLowerCase() == 'souped up')
+		{
+			if (curStep == 1021)//(curStep >= 1017 && curStep < 1021)
+			{
+				boyfriend.playAnim('hey', true);
+			}
+		}
 
 		#if windows
 		if (executeModchart && luaModchart != null)
@@ -3148,8 +3189,6 @@ class PlayState extends MusicBeatState
 			luaModchart.executeState('stepHit',[curStep]);
 		}
 		#end
-
-
 
 		// yes this updates every step.
 		// yes this is bad
@@ -3169,6 +3208,7 @@ class PlayState extends MusicBeatState
 	
 	var noteblockoBeat:Int = 0;
 	var noteblockoOffset:Int = 8;
+	var alrDelay:Int = 25;
 
 	override function beatHit()
 	{
@@ -3239,12 +3279,12 @@ class PlayState extends MusicBeatState
 		{
 			boyfriend.playAnim('idle');
 		}
-		
 
 		if (curBeat % 8 == 7 && curSong == 'Bopeebo')
 		{
 			boyfriend.playAnim('hey', true);
 		}
+		
 
 		if (curBeat % 16 == 15 && SONG.song == 'Tutorial' && dad.curCharacter == 'gf' && curBeat > 16 && curBeat < 48)
 			{
@@ -3255,26 +3295,23 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{
 			case 'redstoneReady':
-				if (!alrActive && FlxG.random.bool(30) && curBeat > noteblockoBeat + noteblockoOffset)
-				{
-					if(FlxG.save.data.distractions){
+				if(FlxG.save.data.distractions){
+					if (!alrActive && FlxG.random.bool(10) && curBeat > noteblockoBeat + noteblockoOffset)
+					{
 						alrActive = true;
 						noteblockChoirsPlayingintheSunshine();
-						new FlxTimer().start(5, function(tmr:FlxTimer)
+						new FlxTimer().start(alrDelay, function(tmr:FlxTimer)
 						{alrActive = false;});
 					}
 				}
 			case 'monstersSpawning':
 				if(FlxG.save.data.distractions){
 					mobsters.animation.play('bop', true);
-				};
-				
-				if (!alrActive && FlxG.random.bool(10) && curBeat > noteblockoBeat + noteblockoOffset)
-				{
-					if(FlxG.save.data.distractions){
+					if (!alrActive && FlxG.random.bool(10) && curBeat > noteblockoBeat + noteblockoOffset)
+					{
 						alrActive = true;
 						noteblockChoirsPlayingintheSunshine();
-						new FlxTimer().start(5, function(tmr:FlxTimer)
+						new FlxTimer().start(alrDelay, function(tmr:FlxTimer)
 						{alrActive = false;});
 					}
 				}

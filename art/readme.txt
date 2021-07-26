@@ -16,7 +16,7 @@
 		        &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 		             &&&&&&&&&&&&&&&&&&&&&
 
-			   ✧  Thanks for downloding ✧
+			   ✧  Thanks for downloading ✧
 		      __   _____    __ ___  ___  _   _ ___ 
 		      \ \ / / __|  / // __|/ _ \| | | | _ \
 		       \ V /\__ \ / _ \__ \ (_) | |_| |  _/
@@ -27,16 +27,28 @@
   \___\___/|____|____|___\___| |_| |___\___/|_|\_|  \___/|_| |___/_/ \_\_| |___|
 
 
-A revamp of my first FNF mod, with tons of revamp and more polish.
+A revamp of my first FNF mod, with way more polish and more importantly, more songs!
 
-So what is new anyway?
+Wait... quality over over quantity? Eh, I don't know how to properly code so I can only ever do the latter. So, hey, collection update!
 
-<changelog> // this will be filled up with all the changelog of the pre-patches once it becomes 2.0
+Rather than have this mod just die out because of it's initial quality, I decided to add some stuff to it, so it's just BARELY in the evergrowing standards of the FNF community.
+
+So, what are new anyway?
+
+<changelog> // this will be filled up with all the changelog of the pre-patches once it becomes 2.0 :)
+
+Okay so I figured out gitbash and that stuff, and finally made a 'proper' Github repository of this mod. Can't say I added anything of interest that can't be outsourced in the other mods but still, as per requested of the muffin of ninja. Well, the fla files for the animated sprites and the mdp files for the bg and stuff can also be found there, so if you want to make some stuff with that go ahead.
+
+GitHub: https://github.com/MeeperCreep/V6SCollection
+
+You (mostly) have 100% my permission on anything related to this mod, but credit where it's due! Always!
+
+Thank you for downloading this mod! Really appreciate it! ^^
 
 ✿°。===========  C R E D I T S  ===========✿°
 
 >> Meeper Creepertown <<
-(One and Only Mod Creator -- Did almost everything, but had some help with the friends below)
+(One and Only Mod Creator -- Did almost everything, but had some help with some friends)
 == CONTACT INFO ==
 YouTube: https://www.youtube.com/c/MeeperCreepertownChannel
 Twitter: https://twitter.com/MeeperCrprtwn (Protected but you can DM me, at least I think)
@@ -49,12 +61,11 @@ Discord ID: 272781015628382208
 YouTube: https://www.youtube.com/channel/UCWLzjD5DIvKSGC_iM6A02Lw
 Discord ID: 280305853284876288
 
->> SuperWillGaming <<
-(One and Only Bagel Lover -- Cutscene Video and Audio Editor)
+>> 6Soup <<
+[One and Only Noteblock Connoisseur -- Literally the character in the mod]
 == CONTACT INFO ==
-YouTube: https://www.youtube.com/user/MrShane233838
-Twitter: https://twitter.com/njsw88
-Discord ID: 196589872125968384
+YouTube: https://www.youtube.com/channel/UCYjh7wfzS3LHSExnSCZ_PQg
+Discord ID: 266580627271319554
 
 Go to https://discord.id/ and enter the Discord IDs to get out current username. There's no telling that our username and numbers can change in the future, so better safe than sorry.
 
@@ -69,6 +80,7 @@ https://gamebanana.com/tuts/13798
 Special thanks to the contributors of the original VS 6Soup Mod:
 
 Daniel Memesmith -- literally cringe
+SuperWillGaming -- literally a bagel
 Barkofriend -- literally boyfriend fnf
 NeoNuke -- literally lemon demon fnf
 Whitty347 -- literally whitty fnf
@@ -128,4 +140,4 @@ BIT BOY - MIKE WELSH
                                       /      /                                    
                                                                                   
 ##################################################################################
-dunno why your expecting this to be popular meeper--shut up, me
+dunno why your expecting this to be popular meeper--shut up and let me enjoy this

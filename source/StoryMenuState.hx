@@ -25,20 +25,29 @@ class StoryMenuState extends MusicBeatState
 
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
+		['Milestone', 'Requested', 'Souped Up'],
+		['Hiss', 'Catsoup', 'K-Block'],
+		['Nightcore', '???', 'Creative Mode'],
 		['Milestone', 'Catsoup', 'Nightcore']
 	];
 	var curDifficulty:Int = 0;
 
-	public static var weekUnlocked:Array<Bool> = [true, true];
+	public static var weekUnlocked:Array<Bool> = [true, true, false, false, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['', 'bf', 'gf'],
+		['catsoup', 'bf', 'gf'],
+		['catsoup', 'bf', 'gf'],
+		['catsoup', 'bf', 'gf'],
 		['catsoup', 'bf', 'gf']
 	];
 
 	var weekNames:Array<String> = [
 		"How to Funk",
-		"Note Block Noraebang",
+		"The Milestone Collection ft. 6Soup",
+		"The Catsoup Collection | Light Level 7",
+		"The Nightcore Collection - Time to Celebr8",
+		"Note Block Noraebang (OG Week)"
 	];
 
 	var txtWeekTitle:FlxText;
@@ -102,8 +111,6 @@ class StoryMenuState extends MusicBeatState
 		grpLocks = new FlxTypedGroup<FlxSprite>();
 		add(grpLocks);
 
-		trace("Line 70");
-
 		for (i in 0...weekData.length)
 		{
 			var weekThing:MenuItem = new MenuItem(0, yellowBG.y + yellowBG.height + 10, i);
@@ -128,16 +135,12 @@ class StoryMenuState extends MusicBeatState
 			}
 		}
 
-		trace("Line 96");
-
 		grpWeekCharacters.add(new MenuCharacter(0, 100, 0.5, false));
 		grpWeekCharacters.add(new MenuCharacter(450, 25, 0.9, true));
 		grpWeekCharacters.add(new MenuCharacter(850, 100, 0.5, true));
 
 		difficultySelectors = new FlxGroup();
 		add(difficultySelectors);
-
-		trace("Line 124");
 
 		leftArrow = new FlxSprite(grpWeekText.members[0].x + grpWeekText.members[0].width + 10, grpWeekText.members[0].y + 20);
 		leftArrow.frames = ui_tex;
@@ -162,8 +165,6 @@ class StoryMenuState extends MusicBeatState
 		rightArrow.animation.play('idle');
 		difficultySelectors.add(rightArrow);
 
-		trace("Line 150");
-
 		add(yellowBG);
 		add(grpWeekCharacters);
 
@@ -177,8 +178,6 @@ class StoryMenuState extends MusicBeatState
 		add(txtWeekTitle);
 
 		updateText();
-
-		trace("Line 165");
 
 		super.create();
 	}
@@ -282,9 +281,14 @@ class StoryMenuState extends MusicBeatState
 			PlayState.SONG = Song.loadFromJson(StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase() + diffic, StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase());
 			PlayState.storyWeek = curWeek;
 			PlayState.campaignScore = 0;
-			new FlxTimer().start(1, function(tmr:FlxTimer)
+			new FlxTimer().start(1.3, function(tmr:FlxTimer)
 			{
-				LoadingState.loadAndSwitchState(new PlayState(), true);
+				if (curWeek == 1) {
+					LoadingState.loadAndSwitchState(new VideoState("assets/videos/Presentation1.webm", new PlayState(), true));
+					FlxG.sound.music.volume = 0;
+				} else {
+					LoadingState.loadAndSwitchState(new PlayState(), true);
+				}
 			});
 		}
 	}
