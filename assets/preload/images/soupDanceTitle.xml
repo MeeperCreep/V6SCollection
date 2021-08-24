@@ -2,34 +2,64 @@
 <TextureAtlas imagePath="soupDanceTitle.png">
 	<!-- Created with Adobe Animate version 21.0.3.38773 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="soupDance0000" x="0" y="0" width="722" height="586"/>
-	<SubTexture name="soupDance0001" x="722" y="0" width="722" height="586"/>
-	<SubTexture name="soupDance0002" x="1444" y="0" width="722" height="586"/>
-	<SubTexture name="soupDance0003" x="2166" y="0" width="722" height="586"/>
-	<SubTexture name="soupDance0004" x="2888" y="0" width="722" height="586"/>
-	<SubTexture name="soupDance0005" x="0" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0006" x="722" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0007" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0008" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0009" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0010" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0011" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0012" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0013" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0014" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0015" x="2166" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0016" x="2888" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0017" x="0" y="1172" width="722" height="586"/>
-	<SubTexture name="soupDance0018" x="722" y="1172" width="722" height="586"/>
-	<SubTexture name="soupDance0019" x="1444" y="1172" width="722" height="586"/>
-	<SubTexture name="soupDance0020" x="2166" y="1172" width="722" height="586"/>
-	<SubTexture name="soupDance0021" x="2888" y="1172" width="722" height="586"/>
-	<SubTexture name="soupDance0022" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0023" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0024" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0025" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0026" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0027" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0028" x="1444" y="586" width="722" height="586"/>
-	<SubTexture name="soupDance0029" x="1444" y="586" width="722" height="586"/>
+	<SubTexture name="soupDance0000" x="0" y="0" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0001" x="729" y="0" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0002" x="1458" y="0" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0003" x="2187" y="0" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0004" x="2916" y="0" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0005" x="0" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0006" x="729" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0007" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0008" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0009" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0010" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0011" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0012" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0013" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0014" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0015" x="2187" y="585" width="722" height="586"/>
+	<SubTexture name="soupDance0016" x="2916" y="585" width="722" height="585" frameX="0" frameY="-1" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0017" x="0" y="1178" width="722" height="585" frameX="0" frameY="-1" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0018" x="729" y="1178" width="722" height="584" frameX="0" frameY="-2" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0019" x="1458" y="1178" width="722" height="582" frameX="0" frameY="-4" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0020" x="2187" y="1178" width="722" height="581" frameX="0" frameY="-5" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0021" x="2916" y="1178" width="722" height="579" frameX="0" frameY="-7" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0022" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0023" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0024" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0025" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0026" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0027" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0028" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance0029" x="1458" y="585" width="722" height="578" frameX="0" frameY="-8" frameWidth="722" frameHeight="586"/>
+	<SubTexture name="soupDance_altH0000" x="0" y="1770" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0001" x="728" y="1770" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0002" x="1456" y="1770" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0003" x="2184" y="1770" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0004" x="2912" y="1770" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0005" x="0" y="2321" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0006" x="728" y="2321" width="721" height="548" frameX="0" frameY="-4" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0007" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0008" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0009" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0010" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0011" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0012" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0013" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0014" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0015" x="0" y="1770" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0016" x="728" y="1770" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0017" x="1456" y="1770" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0018" x="2184" y="1770" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0019" x="2912" y="1770" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0020" x="0" y="2321" width="721" height="544" frameX="0" frameY="-8" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0021" x="728" y="2321" width="721" height="548" frameX="0" frameY="-4" frameWidth="721" frameHeight="552"/>
+	<SubTexture name="soupDance_altH0022" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0023" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0024" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0025" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0026" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0027" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0028" x="1456" y="2321" width="721" height="552"/>
+	<SubTexture name="soupDance_altH0029" x="1456" y="2321" width="721" height="552"/>
 </TextureAtlas>

@@ -85,7 +85,7 @@ class PauseSubState extends MusicBeatSubstate
 		FlxTween.tween(bg, {alpha: 0.6}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(levelInfo, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
 		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
-		FlxTween.tween(creditToTheLegend, {alpha: 0.5, y: creditToTheLegend.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.9});
+		FlxTween.tween(creditToTheLegend, {alpha: 0.5, y: creditToTheLegend.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 1});
 
 		grpMenuShit = new FlxTypedGroup<Alphabet>();
 		add(grpMenuShit);

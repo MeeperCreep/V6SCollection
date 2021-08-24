@@ -249,7 +249,7 @@ class ModchartState
 					PlayState.instance.removeObject(PlayState.boyfriend);
 					PlayState.boyfriend = new Boyfriend(oldboyfriendx, oldboyfriendy, id);
 					PlayState.instance.addObject(PlayState.boyfriend);
-					PlayState.instance.iconP2.animation.play(id);
+					PlayState.instance.iconP1.animation.play(id);
 	}
 
 	function makeAnimatedLuaSprite(spritePath:String,names:Array<String>,prefixes:Array<String>,startAnim:String, id:String)
@@ -655,7 +655,13 @@ class ModchartState
 				Lua_helper.add_callback(lua,"getWindowHeight",function() {
 					return Application.current.window.height;
 				});
-
+				
+				// custom shit for the mod because i feel bad hardcoding them :(
+				
+				Lua_helper.add_callback(lua,"healthDrain", function (loss:Float, time:Float, deadzone:Bool) {
+					PlayState.instance.hissedAF(loss, time, deadzone);
+				});
+				
 	
 				// tweens
 				
@@ -787,40 +793,14 @@ class ModchartState
 					FlxTween.tween(getActorByName(id), {alpha: toAlpha}, time, {ease: FlxEase.circOut, onComplete: function(flxTween:FlxTween) { if (onComplete != '' && onComplete != null) {callLua(onComplete,[id]);}}});
 				});
 
-				//forgot and accidentally commit to master branch
-				// shader
-				
-				/*Lua_helper.add_callback(lua,"createShader", function(frag:String,vert:String) {
-					var shader:LuaShader = new LuaShader(frag,vert);
-
-					trace(shader.glFragmentSource);
-
-					shaders.push(shader);
-					// if theres 1 shader we want to say theres 0 since 0 index and length returns a 1 index.
-					return shaders.length == 1 ? 0 : shaders.length;
-				});
-
-				
-				Lua_helper.add_callback(lua,"setFilterHud", function(shaderIndex:Int) {
-					PlayState.instance.camHUD.setFilters([new ShaderFilter(shaders[shaderIndex])]);
-				});
-
-				Lua_helper.add_callback(lua,"setFilterCam", function(shaderIndex:Int) {
-					FlxG.camera.setFilters([new ShaderFilter(shaders[shaderIndex])]);
-				});*/
-
-				// default strums
-
 				for (i in 0...PlayState.strumLineNotes.length) {
 					var member = PlayState.strumLineNotes.members[i];
-					trace(PlayState.strumLineNotes.members[i].x + " " + PlayState.strumLineNotes.members[i].y + " " + PlayState.strumLineNotes.members[i].angle + " | strum" + i);
 					//setVar("strum" + i + "X", Math.floor(member.x));
 					setVar("defaultStrum" + i + "X", Math.floor(member.x));
 					//setVar("strum" + i + "Y", Math.floor(member.y));
 					setVar("defaultStrum" + i + "Y", Math.floor(member.y));
 					//setVar("strum" + i + "Angle", Math.floor(member.angle));
 					setVar("defaultStrum" + i + "Angle", Math.floor(member.angle));
-					trace("Adding strum" + i);
 				}
     }
 

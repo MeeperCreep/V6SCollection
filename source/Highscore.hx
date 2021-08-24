@@ -2,12 +2,16 @@ package;
 
 import flixel.FlxG;
 
+using StringTools;
+
 class Highscore
 {
 	#if (haxe >= "4.0.0")
 	public static var songScores:Map<String, Int> = new Map();
+	public static var songCombos:Map<String, String> = new Map();
 	#else
 	public static var songScores:Map<String, Int> = new Map<String, Int>();
+	public static var songCombos:Map<String, Int> = new Map<String, String>();
 	#end
 
 
@@ -30,6 +34,23 @@ class Highscore
 			else
 				setScore(daSong, score);
 		}else trace('BotPlay detected. Score saving is disabled.');
+	}
+	
+	public static function saveCombo(song:String, combo:String, ?diff:Int = 0):Void
+	{
+		var daSong:String = formatSong(song, diff);
+		var finalCombo:String = combo.split(')')[1].replace(' ', '');
+
+		if(!FlxG.save.data.botplay)
+		{
+			if (songCombos.exists(daSong))
+			{
+				if (getComboInt(songCombos.get(daSong)) < getComboInt(finalCombo))
+					setCombo(daSong, finalCombo);
+			}
+			else
+				setCombo(daSong, finalCombo);
+		}
 	}
 
 	public static function saveWeekScore(week:Int = 1, score:Int = 0, ?diff:Int = 0):Void
@@ -63,6 +84,13 @@ class Highscore
 		FlxG.save.data.songScores = songScores;
 		FlxG.save.flush();
 	}
+	
+	static function setCombo(song:String, combo:String):Void
+	{
+		songCombos.set(song, combo);
+		FlxG.save.data.songCombos = songCombos;
+		FlxG.save.flush();
+	}
 
 	public static function formatSong(song:String, diff:Int):String
 	{
@@ -73,6 +101,30 @@ class Highscore
 
 		return daSong;
 	}
+	
+	static function getComboInt(combo:String):Int
+	{
+		switch(combo)
+		{
+			case 'E': return 1;
+			case 'D': return 2;
+			case 'D+': return 3;
+			case 'C-': return 4;
+			case 'C': return 5;
+			case 'C+': return 6;
+			case 'B-': return 7;
+			case 'B': return 8;
+			case 'B+': return 9;
+			case 'A-': return 10;
+			case 'A': return 11;
+			case 'A+': return 12;
+			case 'S': return 13;
+			case 'S+': return 14;
+			case 'S++': return 15;
+			case 'SS': return 99; // you can't beat the perfect >:)
+			default: return 0;
+		}
+	}
 
 	public static function getScore(song:String, diff:Int):Int
 	{
@@ -80,6 +132,14 @@ class Highscore
 			setScore(formatSong(song, diff), 0);
 
 		return songScores.get(formatSong(song, diff));
+	}
+	
+	public static function getCombo(song:String, diff:Int):String
+	{
+		if (!songCombos.exists(formatSong(song, diff)))
+			setCombo(formatSong(song, diff), 'N/A');
+
+		return songCombos.get(formatSong(song, diff));
 	}
 
 	public static function getWeekScore(week:Int, diff:Int):Int
@@ -95,6 +155,10 @@ class Highscore
 		if (FlxG.save.data.songScores != null)
 		{
 			songScores = FlxG.save.data.songScores;
+		}
+		if (FlxG.save.data.songCombos != null)
+		{
+			songCombos = FlxG.save.data.songCombos;
 		}
 	}
 }

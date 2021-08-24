@@ -1,6 +1,7 @@
-Tutorial:gf:1
+Tutorial:gf:0
 Milestone:milestoner:1
 Requested:milestoner:1
 Souped Up:milestoner:1
+Hiss:catsouper-hiss:2
 Catsoup:catsouper:2
 Nightcore:nightcorer:3

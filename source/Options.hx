@@ -221,6 +221,27 @@ class DistractionsAndEffectsOption extends Option
 	}
 }
 
+class NoFail extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.save.data.nofail = !FlxG.save.data.nofail;
+		display = updateDisplay();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return "Nofail " + (!FlxG.save.data.nofail ? "off" : "on");
+	}
+}
+
 class SparkleEffectOnSickNotes extends Option
 {
 	public function new(desc:String)
@@ -272,17 +293,14 @@ class SparkleEffectOnSickNotes extends Option
 	{
 		var sparkCheck:String = "";
 		// for some reason, going from opaque, default doesn't show up anymore, but if you go to faint then it shows up again. real weird.
-		if (FlxG.save.data.critAlpha == 0.6) {
+		if (FlxG.save.data.critAlpha == 0.6)
 			sparkCheck = " [DEFAULT]";
-		};
-		
-		if (FlxG.save.data.critAlpha == 1) {
+		else if (FlxG.save.data.critAlpha == 1)
 			sparkCheck = " [OPAQUE]";
-		};
-		
-		if (FlxG.save.data.critAlpha == 0.25) {
+		else if (FlxG.save.data.critAlpha == 0.25)
 			sparkCheck = " [FAINT]";
-		};
+		else
+			sparkCheck = "";
 		
 		return "Note Sparkle Opacity: " + FlxG.save.data.critAlpha + sparkCheck + " (Left, Right)";
 	}
@@ -306,6 +324,48 @@ class StupidAnnoyingPopSFX extends Option
 	private override function updateDisplay():String
 	{
 		return FlxG.save.data.annoyPop ? "Pop SFX Enabled" : "No Annoying Sound";
+	}
+}
+
+class HissedToNearDeath extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.save.data.hardhiss = !FlxG.save.data.hardhiss;
+		display = updateDisplay();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return "Hardcore Hiss " + (!FlxG.save.data.hardhiss ? "off" : "on");
+	}
+}
+
+class NoteSoupMod extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.save.data.soupNotes = !FlxG.save.data.soupNotes;
+		display = updateDisplay();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return FlxG.save.data.soupNotes ? "Note Block Notes" : "Arrow Notes";
 	}
 }
 
@@ -476,7 +536,6 @@ class FPSCapOption extends Option
 	}
 }
 
-
 class ScrollSpeedOption extends Option
 {
 	public function new(desc:String)
@@ -523,7 +582,6 @@ class ScrollSpeedOption extends Option
 		return true;
 	}
 }
-
 
 class RainbowFPSOption extends Option
 {
@@ -631,28 +689,6 @@ class CustomizeGameplay extends Option
 	}
 }
 
-class WatermarkOption extends Option
-{
-	public function new(desc:String)
-	{
-		super();
-		description = desc;
-	}
-
-	public override function press():Bool
-	{
-		Main.watermarks = !Main.watermarks;
-		FlxG.save.data.watermark = Main.watermarks;
-		display = updateDisplay();
-		return true;
-	}
-
-	private override function updateDisplay():String
-	{
-		return "Watermarks " + (Main.watermarks ? "on" : "off");
-	}
-}
-
 class OffsetMenu extends Option
 {
 	public function new(desc:String)
@@ -664,7 +700,7 @@ class OffsetMenu extends Option
 	public override function press():Bool
 	{
 		trace("switch");
-		var poop:String = Highscore.formatSong("Tutorial", 1);
+		var poop:String = Highscore.formatSong("Tutorial", 0);
 
 		PlayState.SONG = Song.loadFromJson(poop, "Tutorial");
 		PlayState.isStoryMode = false;

@@ -33,34 +33,42 @@ class OptionsMenu extends MusicBeatState
 			new FPSCapOption("Cap your FPS"),
 			#end
 			new ScrollSpeedOption("Change your scroll speed (1 = Chart dependent)"),
-			new AccuracyDOption("Change how accuracy is calculated. (Accurate = Good, Complex = Never use this)"),
+			new AccuracyDOption("Change how accuracy is calculated. (Accurate = Simple, Complex = Milisecond Based)"),
 			new ResetButtonOption("Toggle pressing R to gameover."),
-			// new OffsetMenu("Get a note offset based off of your inputs!"),
 			new CustomizeGameplay("Drag'n'Drop Gameplay Modules around to your preference")
 		]),
+		
 		new OptionCategory("Appearance", [
 			#if desktop
-			new DistractionsAndEffectsOption("Toggle stage distractions that can hinder your gameplay."),
+			new NoteSoupMod("Toggle the default notestyle to be 6Soup's Note Skin Mod!"),
 			new SparkleEffectOnSickNotes("Shows you a sparkle effect whenever you hit a SICK note."),
-			new RainbowFPSOption("Make the FPS Counter Rainbow"),
+			new DistractionsAndEffectsOption("Toggle stage distractions that can hinder your gameplay."),
 			new AccuracyOption("Display accuracy information."),
-			new NPSDisplayOption("Shows your current Notes Per Second."),
 			new SongPositionOption("Show the songs current position (as a bar)"),
 			new CpuStrums("CPU's strumline lights up when a note hits it."),
+			new NPSDisplayOption("Shows your current Notes Per Second."),
+			new RainbowFPSOption("Make the FPS Counter Rainbow")
 			#else
-			new DistractionsAndEffectsOption("Toggle stage distractions that can hinder your gameplay.")
+			new NoteSoupMod("Toggle the default notes to be 6Soup's Note Skin Mod!"),
+			new DistractionsAndEffectsOption("Toggle stage distractions that can hinder your gameplay."),
+			new SparkleEffectOnSickNotes("Shows you a sparkle effect whenever you hit a SICK note.")
 			#end
+		]),
+		
+		new OptionCategory("Modifiers", [
+			new NoFail("You will not die from health loss until the song ends."),
+			new HissedToNearDeath("When enabled, every hiss drops you to dangerously low health...")
 		]),
 		
 		new OptionCategory("Misc", [
 			#if desktop
-			new FPSOption("Toggle the FPS Counter"),
 			new ReplayOption("View replays"),
+			new FPSOption("Toggle the FPS Counter"),
 			#end
 			new FlashingLightsOption("Toggle flashing lights that can cause epileptic seizures and strain."),
-			new WatermarkOption("Enable and disable all watermarks from the engine."),
-			new StupidAnnoyingPopSFX("Plays a sound effect whenever you hit a SICK note."),
-			new BotPlay("Showcase your charts and mods with autoplay.")
+			new BotPlay("Showcase your charts and mods with autoplay."),
+			new StupidAnnoyingPopSFX("Plays a sound effect whenever you hit note."),
+			new OffsetMenu("Get a note offset based off of your inputs!")
 		])
 		
 	];
@@ -242,9 +250,6 @@ class OptionsMenu extends MusicBeatState
 
 	function changeSelection(change:Int = 0)
 	{
-		#if !switch
-		// NGio.logEvent("Fresh");
-		#end
 		
 		FlxG.sound.play(Paths.sound("scrollMenu"), 0.4);
 

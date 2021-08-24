@@ -33,17 +33,16 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = ['story mode', 'freeplay'];
 	#end
 
-	var newGaming:FlxText;
-	var newGaming2:FlxText;
+	//var newGaming:FlxText;
+	//var newGaming2:FlxText;
 	public static var firstStart:Bool = true;
 
-	public static var nightly:String = "";
-
-	public static var kadeEngineVer:String = "1.5.1" + nightly;
-	public static var gameVer:String = "1.2.0";
+	public static var kadeEngineVer:String = "1.5.1";
+	public static var gameVer:String = "1.3";
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
+	var trackedAssets:Array<Dynamic> = [];
 	public static var finishedFunnyMove:Bool = false;
 
 	override function create()
@@ -220,6 +219,8 @@ class MainMenuState extends MusicBeatState
 	function goToState()
 	{
 		var daChoice:String = optionShit[curSelected];
+		
+		unloadAssets();
 
 		switch (daChoice)
 		{
@@ -256,6 +257,23 @@ class MainMenuState extends MusicBeatState
 			}
 
 			spr.updateHitbox();
+		});
+	}
+	
+	override function add(Object:flixel.FlxBasic):flixel.FlxBasic
+	{
+		trackedAssets.insert(trackedAssets.length, Object);
+		return super.add(Object);
+	}
+
+	function unloadAssets():Void
+	{
+		new FlxTimer().start(0.6, function(tmr:FlxTimer)
+		{
+			for (asset in trackedAssets)
+			{
+				remove(asset);
+			}
 		});
 	}
 }

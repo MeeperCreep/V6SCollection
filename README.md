@@ -2,7 +2,7 @@
 ## Download the Mod!
 The **VS 6Soup Collection'** is a planned extention for the original *VS 6Soup Mod*. Feel free to reference this repository on your own mod! Though, I don't think there is any notable additions that aren't already in the Kade Engine. Still, I'm required to make the mod open-source by ninjamuffin99, so have fun! (I guess)
 
-Links: **[GameBanana mod page]https://gamebanana.com/mods/296445) ⋅ [Google Drive](https://drive.google.com/drive/folders/1XioAUmgamktVfKE29oyXeRKHaq8g4hej)**
+Links: **[GameBanana mod page](https://gamebanana.com/mods/296445) ⋅ [Google Drive](https://drive.google.com/drive/folders/1XioAUmgamktVfKE29oyXeRKHaq8g4hej)**
 
 ## Kade Engine
 **Kade Engine** is a mod for Friday Night Funkin', including a full engine rework, replays, and more.

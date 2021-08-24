@@ -27,7 +27,7 @@ class StoryMenuState extends MusicBeatState
 		['Tutorial'],
 		['Milestone', 'Requested', 'Souped Up'],
 		['Hiss', 'Catsoup', 'K-Block'],
-		['Nightcore', '???', 'Creative Mode'],
+		['Nightcore', 'Endcore', 'Creative Mode'],
 		['Milestone', 'Catsoup', 'Nightcore']
 	];
 	var curDifficulty:Int = 0;
@@ -44,10 +44,14 @@ class StoryMenuState extends MusicBeatState
 
 	var weekNames:Array<String> = [
 		"How to Funk",
-		"The Milestone Collection ft. 6Soup",
-		"The Catsoup Collection | Light Level 7",
-		"The Nightcore Collection - Time to Celebr8",
-		"Note Block Noraebang (OG Week)"
+		"Cat and Mouse | MS Collection",
+		"Light Level 7 | CS Collection",
+		"Time to Celebrate | NC Collection",
+		"Note Block Noraebang | OG Week"
+		//"Midnight Madness | XTRA 1"
+		//"Prequel Collection | XTRA 2"
+		//"Noteblock Dimensions | XTRA 3",
+		//"Mod Team Tag Team | XTRA 4"
 	];
 
 	var txtWeekTitle:FlxText;
@@ -65,6 +69,8 @@ class StoryMenuState extends MusicBeatState
 	var sprDifficulty:FlxSprite;
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
+	
+	var trackedAssets:Array<flixel.FlxBasic> = [];
 
 	override function create()
 	{
@@ -278,14 +284,16 @@ class StoryMenuState extends MusicBeatState
 
 			PlayState.storyDifficulty = curDifficulty;
 
-			PlayState.SONG = Song.loadFromJson(StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase() + diffic, StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase());
+			PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + diffic, PlayState.storyPlaylist[0].toLowerCase());
 			PlayState.storyWeek = curWeek;
 			PlayState.campaignScore = 0;
 			new FlxTimer().start(1.3, function(tmr:FlxTimer)
 			{
-				if (curWeek == 1) {
+				unloadAssets();
+				if (curWeek == 1 && PlayState.storyPlaylist[0] == 'Milestone') {
 					LoadingState.loadAndSwitchState(new VideoState("assets/videos/Presentation1.webm", new PlayState(), true));
 					FlxG.sound.music.volume = 0;
+				//} else if () {
 				} else {
 					LoadingState.loadAndSwitchState(new PlayState(), true);
 				}
@@ -380,5 +388,22 @@ class StoryMenuState extends MusicBeatState
 		#if !switch
 		intendedScore = Highscore.getWeekScore(curWeek, curDifficulty);
 		#end
+	}
+	
+	override function add(Object:flixel.FlxBasic):flixel.FlxBasic
+	{
+		trackedAssets.insert(trackedAssets.length, Object);
+		return super.add(Object);
+	}
+
+	function unloadAssets():Void
+	{
+		new FlxTimer().start(0.6, function(tmr:FlxTimer)
+		{
+			for (asset in trackedAssets)
+			{
+				remove(asset);
+			}
+		});
 	}
 }

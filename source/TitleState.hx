@@ -23,6 +23,7 @@ import flixel.util.FlxTimer;
 import io.newgrounds.NG;
 import lime.app.Application;
 import openfl.Assets;
+import Random;
 
 #if windows
 import Discord.DiscordClient;
@@ -40,11 +41,11 @@ class TitleState extends MusicBeatState
 
 	var blackScreen:FlxSprite;
 	var credGroup:FlxGroup;
-	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
 	var teamPortrait:FlxSprite;
 
 	var curWacky:Array<String> = [];
+	var lesGo:String = 'Les go';
 
 	var wackyImage:FlxSprite;
 
@@ -76,12 +77,11 @@ class TitleState extends MusicBeatState
 		#end
 
 		curWacky = FlxG.random.getObject(getIntroTextShit());
+		lesGo = FlxG.random.getObject(CoolUtil.coolTextFile(Paths.txt('cringe')));
 
 		// DEBUG BULLSHIT
 
 		super.create();
-
-		// NGio.noLogin(APIStuff.API);
 
 		#if ng
 		var ng:NGio = new NGio(APIStuff.API, APIStuff.EncKey);
@@ -144,59 +144,68 @@ class TitleState extends MusicBeatState
 			// HAD TO MODIFY SOME BACKEND SHIT
 			// IF THIS PR IS HERE IF ITS ACCEPTED UR GOOD TO GO
 			// https://github.com/HaxeFlixel/flixel-addons/pull/348
-
-			// var music:FlxSound = new FlxSound();
-			// music.loadStream(Paths.music('freakyMenu'));
-			// FlxG.sound.list.add(music);
-			// music.play();
-			FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
-
-			FlxG.sound.music.fadeIn(4, 0, 0.7);
 		}
 
 		Conductor.changeBPM(102);
 		persistentUpdate = true;
 
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
-		// bg.antialiasing = true;
-		// bg.setGraphicSize(Std.int(bg.width * 0.6));
-		// bg.updateHitbox();
 		add(bg);
-
-		logoBl = new FlxSprite(-20, -40);
-		logoBl.frames = Paths.getSparrowAtlas('newlogoBumpin');
+		
+		var tX:Int = -20;
+		var tY:Int = -40;
+		var logoBumpin:String = 'newlogoBumpin';
+		
+		if (FlxG.random.bool(0.1))
+		{
+			trace("OLD LOGO EASTER EGG AYYY LMAOO");
+			tX = -150;
+			tY = -100;
+			logoBumpin = 'oldlogoBumpin';
+		}
+		
+		logoBl = new FlxSprite(tX, tY);
+		logoBl.frames = Paths.getSparrowAtlas(logoBumpin);
 		logoBl.antialiasing = true;
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
-		// logoBl.screenCenter();
-		// logoBl.color = FlxColor.BLACK;
 
-		soupDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.13);
+		var soupRandom:Int = Random.int(1,100);
+		trace("Dice rolls " + soupRandom);
+		var soupVar:String;
+		var sWv:Float = 0.4;
+		var sHv:Float = 0.13;
+		
+		// Randomize the title dance shit lmao
+		if (soupRandom > 50) {
+			soupVar = '_altH';
+			sWv = 0.4;
+			sHv = 0.19;
+		}
+		else {
+			soupVar = '';
+			sWv = 0.4;
+			sHv = 0.13;
+		}
+		
+		soupDance = new FlxSprite(FlxG.width * sWv, FlxG.height * sHv);
 		soupDance.frames = Paths.getSparrowAtlas('soupDanceTitle');
-		soupDance.animation.addByIndices('danceLeft', 'soupDance', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
-		soupDance.animation.addByIndices('danceRight', 'soupDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+		soupDance.animation.addByIndices('danceLeft', 'soupDance' + soupVar, [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
+		soupDance.animation.addByIndices('danceRight', 'soupDance' + soupVar, [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
 		soupDance.antialiasing = true;
+		
 		add(soupDance);
 		add(logoBl);
 
-		titleText = new FlxSprite(100, FlxG.height * 0.8);
+		titleText = new FlxSprite(146, FlxG.height * 0.8);
 		titleText.frames = Paths.getSparrowAtlas('titleEnter');
 		titleText.animation.addByPrefix('idle', "Press Enter to Begin", 24);
 		titleText.animation.addByPrefix('press', "ENTER PRESSED", 24);
 		titleText.antialiasing = true;
 		titleText.animation.play('idle');
 		titleText.updateHitbox();
-		// titleText.screenCenter(X);
 		add(titleText);
-
-		var logo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('logo'));
-		logo.screenCenter();
-		logo.antialiasing = true;
-		// add(logo);
-
-		// FlxTween.tween(logoBl, {y: logoBl.y + 50}, 0.6, {ease: FlxEase.quadInOut, type: PINGPONG});
-		// FlxTween.tween(logo, {y: logoBl.y + 50}, 0.6, {ease: FlxEase.quadInOut, type: PINGPONG, startDelay: 0.1});
 
 		credGroup = new FlxGroup();
 		add(credGroup);
@@ -204,13 +213,6 @@ class TitleState extends MusicBeatState
 
 		blackScreen = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		credGroup.add(blackScreen);
-
-		credTextShit = new Alphabet(0, 0, "ninjamuffin99\nPhantomArcade\nkawaisprite\nevilsk8er", true);
-		credTextShit.screenCenter();
-
-		// credTextShit.alignment = CENTER;
-
-		credTextShit.visible = false;
 		
 		teamPortrait = new FlxSprite(0, FlxG.height * 0.52).loadGraphic(Paths.image('heavyLifting'));
 		add(teamPortrait);
@@ -220,16 +222,15 @@ class TitleState extends MusicBeatState
 		teamPortrait.screenCenter(X);
 		teamPortrait.antialiasing = true;
 
-		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});
-
+		FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+		FlxG.sound.music.fadeIn(4, 0, 0.7);
+		
 		FlxG.mouse.visible = false;
 
 		if (initialized)
 			skipIntro();
 		else
 			initialized = true;
-
-		// credGroup.add(credTextShit);
 	}
 
 	function getIntroTextShit():Array<Array<String>>
@@ -253,7 +254,6 @@ class TitleState extends MusicBeatState
 	{
 		if (FlxG.sound.music != null)
 			Conductor.songPosition = FlxG.sound.music.time;
-		// FlxG.watch.addQuick('amp', FlxG.sound.music.amplitude);
 
 		if (FlxG.keys.justPressed.F)
 		{
@@ -287,13 +287,6 @@ class TitleState extends MusicBeatState
 
 		if (pressedEnter && !transitioning && skippedIntro)
 		{
-			#if !switch
-			NGio.unlockMedal(60960);
-
-			// If it's Friday according to da clock
-			if (Date.now().getDay() == 5)
-				NGio.unlockMedal(61034);
-			#end
 
 			if (FlxG.save.data.flashing)
 				titleText.animation.play('press');
@@ -302,7 +295,6 @@ class TitleState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
 
 			transitioning = true;
-			// FlxG.sound.music.stop();
 
 			MainMenuState.firstStart = true;
 
@@ -311,7 +303,6 @@ class TitleState extends MusicBeatState
 				// removed outdated substate fuck yeah lmao :P
 				FlxG.switchState(new MainMenuState());
 			});
-			// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
 		}
 
 		if (pressedEnter && !skippedIntro && initialized)
@@ -365,11 +356,11 @@ class TitleState extends MusicBeatState
 			soupDance.animation.play('danceLeft');
 
 		FlxG.log.add(curBeat);
-
+		
 		switch (curBeat)
 		{
 			case 3:
-				createCoolText(['Les go']);
+				createCoolText([lesGo]);
 			case 4:
 				deleteCoolText();
 			case 5:

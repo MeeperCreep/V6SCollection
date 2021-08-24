@@ -118,8 +118,4 @@
 	<SubTexture name="redlight0113" x="3986" y="1963" width="30" height="264" frameX="-1" frameY="-690" frameWidth="2560" frameHeight="1400"/>
 	<SubTexture name="redlight0114" x="3986" y="1963" width="30" height="264" frameX="-1" frameY="-690" frameWidth="2560" frameHeight="1400"/>
 	<SubTexture name="redlight0115" x="3986" y="1963" width="30" height="264" frameX="-1" frameY="-690" frameWidth="2560" frameHeight="1400"/>
-	<SubTexture name="redlight0116" x="4023" y="1963" width="0" height="0" frameX="0" frameY="0" frameWidth="2560" frameHeight="1400"/>
-	<SubTexture name="redlight0117" x="4023" y="1963" width="0" height="0" frameX="0" frameY="0" frameWidth="2560" frameHeight="1400"/>
-	<SubTexture name="redlight0118" x="4023" y="1963" width="0" height="0" frameX="0" frameY="0" frameWidth="2560" frameHeight="1400"/>
-	<SubTexture name="redlight0119" x="4023" y="1963" width="0" height="0" frameX="0" frameY="0" frameWidth="2560" frameHeight="1400"/>
 </TextureAtlas>

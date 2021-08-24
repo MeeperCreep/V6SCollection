@@ -26,6 +26,7 @@ class Note extends FlxSprite
 	public var modifiedByLua:Bool = false;
 	public var sustainLength:Float = 0;
 	public var isSustainNote:Bool = false;
+	public var noteAnimCall:String;
 
 	public var noteScore:Float = 1;
 
@@ -37,7 +38,7 @@ class Note extends FlxSprite
 
 	public var rating:String = "shit";
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false)
+	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?noteAnimCall:String)
 	{
 		super();
 
@@ -45,6 +46,12 @@ class Note extends FlxSprite
 			prevNote = this;
 
 		this.prevNote = prevNote;
+		
+		if (noteAnimCall != null)
+			this.noteAnimCall = noteAnimCall;
+		else
+			this.noteAnimCall = "";
+			
 		isSustainNote = sustainNote;
 
 		x += 50;
@@ -61,33 +68,11 @@ class Note extends FlxSprite
 
 		switch (PlayState.SONG.noteStyle)
 		{
-			case 'pixel':
-				loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels','week6'), true, 17, 17);
-
-				animation.add('greenScroll', [6]);
-				animation.add('redScroll', [7]);
-				animation.add('blueScroll', [5]);
-				animation.add('purpleScroll', [4]);
-
-				if (isSustainNote)
-				{
-					loadGraphic(Paths.image('weeb/pixelUI/arrowEnds','week6'), true, 7, 6);
-
-					animation.add('purpleholdend', [4]);
-					animation.add('greenholdend', [6]);
-					animation.add('redholdend', [7]);
-					animation.add('blueholdend', [5]);
-
-					animation.add('purplehold', [0]);
-					animation.add('greenhold', [2]);
-					animation.add('redhold', [3]);
-					animation.add('bluehold', [1]);
-				}
-
-				setGraphicSize(Std.int(width * PlayState.daPixelZoom));
-				updateHitbox();
 			default:
-				frames = Paths.getSparrowAtlas('NOTE_assets');
+				if (FlxG.save.data.soupNotes)
+					frames = Paths.getSparrowAtlas('memesmith/NOTEBLOCK_assets', 'weekseub');
+				else 
+					frames = Paths.getSparrowAtlas('NOTE_assets');
 
 				animation.addByPrefix('greenScroll', 'green0');
 				animation.addByPrefix('redScroll', 'red0');

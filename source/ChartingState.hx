@@ -36,6 +36,9 @@ import openfl.events.IOErrorEvent;
 import openfl.media.Sound;
 import openfl.net.FileReference;
 import openfl.utils.ByteArray;
+#if windows
+import Discord.DiscordClient;
+#end
 
 using StringTools;
 
@@ -60,7 +63,7 @@ class ChartingState extends MusicBeatState
 	var bpmTxt:FlxText;
 
 	var strumLine:FlxSprite;
-	var curSong:String = 'Dad Battle';
+	var curSong:String = 'Tutorial';
 	var amountSteps:Int = 0;
 	var bullshitUI:FlxGroup;
 	var writingNotesText:FlxText;
@@ -92,6 +95,8 @@ class ChartingState extends MusicBeatState
 
 	var leftIcon:HealthIcon;
 	var rightIcon:HealthIcon;
+	
+	var appendix:FlxInputText;
 
 	private var lastNote:Note;
 	var claps:Array<Note> = [];
@@ -100,6 +105,7 @@ class ChartingState extends MusicBeatState
 
 	override function create()
 	{
+		
 		curSection = lastSection;
 
 		if (PlayState.SONG != null)
@@ -200,8 +206,10 @@ class ChartingState extends MusicBeatState
 
 		add(blackBorder);
 		add(snapText);
-
-
+		
+		#if windows
+		DiscordClient.changePresence("Just Charting", null, null, true);
+		#end
 
 		super.create();
 	}
@@ -486,11 +494,36 @@ class ChartingState extends MusicBeatState
 
 		var stepperSusLengthLabel = new FlxText(74,10,'Note Sustain Length');
 
-		var applyLength:FlxButton = new FlxButton(10, 100, 'Apply Data');
-
+		var applyLength:FlxButton = new FlxButton(10, 40, 'Apply Data');
+		
+		var animCallSuffix = new FlxUIInputText(10, 150, 70, '', 8);
+		appendix = animCallSuffix;
+		
+		var animCallLabel = new FlxText(10,130,64,'Alt Suffix');
+		
+		var altButton:FlxButton = new FlxButton(10, 170, "-alt", function()
+		{
+			animCallSuffix.destroy();
+			animCallSuffix = new FlxUIInputText(10, 150, 70, '-alt', 8);
+			appendix = animCallSuffix;
+			tab_group_note.add(animCallSuffix);
+		});
+		
+		var duoButton:FlxButton = new FlxButton(100, 170, "-duo", function()
+		{
+			animCallSuffix.destroy();
+			animCallSuffix = new FlxUIInputText(10, 150, 70, '-duo', 8);
+			appendix = animCallSuffix;
+			tab_group_note.add(animCallSuffix);
+		});
+		
 		tab_group_note.add(stepperSusLength);
 		tab_group_note.add(stepperSusLengthLabel);
 		tab_group_note.add(applyLength);
+		tab_group_note.add(animCallSuffix);
+		tab_group_note.add(animCallLabel);
+		tab_group_note.add(altButton);
+		tab_group_note.add(duoButton);
 
 		UI_box.addGroup(tab_group_note);
 
@@ -1393,11 +1426,14 @@ class ChartingState extends MusicBeatState
 		var noteStrum = getStrumTime(dummyArrow.y) + sectionStartTime();
 		var noteData = Math.floor(FlxG.mouse.x / GRID_SIZE);
 		var noteSus = 0;
+		var noteAnimCall = '';
+		if (FlxG.keys.pressed.X)
+			noteAnimCall = appendix.text;
 
 		if (n != null)
-			_song.notes[curSection].sectionNotes.push([n.strumTime, n.noteData, n.sustainLength]);
+			_song.notes[curSection].sectionNotes.push([n.strumTime, n.noteData, n.sustainLength, n.noteAnimCall]);
 		else
-			_song.notes[curSection].sectionNotes.push([noteStrum, noteData, noteSus]);
+			_song.notes[curSection].sectionNotes.push([noteStrum, noteData, noteSus, noteAnimCall]);
 
 		var thingy = _song.notes[curSection].sectionNotes[_song.notes[curSection].sectionNotes.length - 1];
 

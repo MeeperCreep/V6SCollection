@@ -8,6 +8,9 @@ import flixel.addons.display.FlxGridOverlay;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
+#if windows
+import Discord.DiscordClient;
+#end
 
 /**
 	*DEBUG MODE
@@ -78,6 +81,10 @@ class AnimationDebug extends FlxState
 		add(camFollow);
 
 		FlxG.camera.follow(camFollow);
+		
+		#if windows
+		DiscordClient.changePresence("Debugging Animations", null, null, true);
+		#end
 
 		super.create();
 	}
@@ -117,6 +124,9 @@ class AnimationDebug extends FlxState
 			FlxG.camera.zoom += 0.25;
 		if (FlxG.keys.justPressed.Q)
 			FlxG.camera.zoom -= 0.25;
+		
+		if (FlxG.keys.justPressed.ENTER)
+			FlxG.switchState(new MainMenuState());
 
 		if (FlxG.keys.pressed.I || FlxG.keys.pressed.J || FlxG.keys.pressed.K || FlxG.keys.pressed.L)
 		{

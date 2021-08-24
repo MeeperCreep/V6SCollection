@@ -16,7 +16,7 @@ class Ratings
             ranking = "(Full Combo)";
 		else if (PlayState.misses == 1) // When you choke and only miss one
             ranking = "(Choked-FC)";
-        else if (PlayState.misses <= 5) // 5 misses max
+        else if (PlayState.misses < 6) // 5 misses max
             ranking = "(Sub-FC)";
 	    else if (PlayState.misses < 10) // Single Digit Combo Breaks
             ranking = "(SDCB)";
@@ -44,7 +44,7 @@ class Ratings
             accuracy >= 70, // D+
             accuracy >= 67, // D
             accuracy >= 65, // E
-            accuracy < 63 // F bro you actually suck :(
+            accuracy < 60 // F bro you actually suck :(
         ];
 
         for(i in 0...meepConditions.length)
@@ -118,7 +118,7 @@ class Ratings
         // trace('Hit Info\nDifference: ' + noteDiff + '\nZone: ' + Conductor.safeZoneOffset * 1.5 + "\nTS: " + customTimeScale + "\nLate: " + 155 * customTimeScale);
 
 	if (FlxG.save.data.botplay)
-	    return "good"; // FUNNY
+	    return "sick";
 	    
         if (noteDiff > 166 * customTimeScale) // so god damn fuckin early its a miss
             return "miss";
@@ -142,10 +142,12 @@ class Ratings
    public static function CalculateRanking(score:Int,scoreDef:Int,nps:Int,maxNPS:Int,accuracy:Float):String
     {
         return 
-        (FlxG.save.data.npsDisplay ? "NPS: " + nps + " (Max " + maxNPS + ")" + (!FlxG.save.data.botplay ? " | " : "") : "") + (!FlxG.save.data.botplay ?	// NPS Toggle
-        "Score: " + (Conductor.safeFrames != 10 ? score + " (" + scoreDef + ")" : "" + score) + 								// Score
-        " | Misses: " + PlayState.misses + 																						// Misses/Combo Breaks
+        (FlxG.save.data.npsDisplay ?
+		"NPS: " + nps + " (Max " + maxNPS + ")" + (!FlxG.save.data.botplay ? " | " : "") : "") + 								// NPS Toggle
+		(!FlxG.save.data.botplay ? "Score: " + (Conductor.safeFrames != 10 ? score + " (" + scoreDef + ")" : "" + score) + 		// Score
+		(FlxG.save.data.accuracyDisplay ?
+        " | Misses: " + PlayState.misses + 																						// Misses
         " | Accuracy: " + (FlxG.save.data.botplay ? "N/A" : HelperFunctions.truncateFloat(accuracy, 2) + " %") +  				// Accuracy
-        " | " + GenerateLetterRank(accuracy) : ""); 																			// Letter Rank
+        " | " + GenerateLetterRank(accuracy) : "") : ""); 																		// Letter Rank
     }
 }

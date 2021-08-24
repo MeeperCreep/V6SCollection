@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BoyFriend_CreeperFried.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF DMISS0000" x="0" y="0" width="374" height="447" frameX="-1" frameY="0" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0001" x="381" y="0" width="376" height="426" frameX="-1" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0002" x="381" y="0" width="376" height="426" frameX="-1" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0003" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0004" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0005" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0006" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0007" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0008" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0009" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0010" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0011" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0012" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0013" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0014" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0015" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0016" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0017" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0018" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0019" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0020" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0021" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0022" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0023" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0024" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0025" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0026" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0027" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DMISS0028" x="764" y="0" width="378" height="426" frameX="0" frameY="-21" frameWidth="378" frameHeight="447"/>
+	<SubTexture name="BF DOWN0000" x="1149" y="0" width="374" height="447" frameX="-1" frameY="-1" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0001" x="1149" y="0" width="374" height="447" frameX="-1" frameY="-1" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0002" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0003" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0004" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0005" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0006" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0007" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0008" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0009" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0010" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0011" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0012" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0013" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0014" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0015" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0016" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0017" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0018" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0019" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0020" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0021" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0022" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0023" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0024" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0025" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0026" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0027" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0028" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF DOWN0029" x="1530" y="0" width="373" height="448" frameX="0" frameY="0" frameWidth="375" frameHeight="448"/>
+	<SubTexture name="BF LEFT0000" x="1910" y="0" width="383" height="438" frameX="0" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0001" x="1910" y="0" width="383" height="438" frameX="0" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0002" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0003" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0004" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0005" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0006" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0007" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0008" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0009" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0010" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0011" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0012" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0013" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LEFT0014" x="2300" y="0" width="374" height="438" frameX="-11" frameY="0" frameWidth="385" frameHeight="438"/>
+	<SubTexture name="BF LMISS0000" x="2681" y="0" width="383" height="438" frameX="0" frameY="0" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0001" x="3071" y="0" width="369" height="430" frameX="-15" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0002" x="3071" y="0" width="369" height="430" frameX="-15" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0003" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0004" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0005" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0006" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0007" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0008" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0009" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0010" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0011" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0012" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0013" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0014" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0015" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0016" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0017" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0018" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0019" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0020" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0021" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0022" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0023" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0024" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0025" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0026" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0027" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0028" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0029" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0030" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0031" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0032" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF LMISS0033" x="3447" y="0" width="370" height="430" frameX="-13" frameY="-6" frameWidth="384" frameHeight="438"/>
+	<SubTexture name="BF RIGHT0000" x="3824" y="0" width="408" height="462" frameX="-1" frameY="-1" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0001" x="3824" y="0" width="408" height="462" frameX="-1" frameY="-1" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0002" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0003" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0004" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0005" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0006" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0007" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0008" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0009" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0010" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0011" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0012" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0013" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0014" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0015" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0016" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0017" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0018" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0019" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0020" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0021" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0022" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0023" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0024" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0025" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0026" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0027" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0028" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0029" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0030" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0031" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0032" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0033" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0034" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0035" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0036" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0037" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0038" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0039" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0040" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0041" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0042" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0043" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0044" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0045" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0046" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0047" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0048" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0049" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0050" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0051" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0052" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0053" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0054" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0055" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0056" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0057" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0058" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0059" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0060" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RIGHT0061" x="4239" y="0" width="408" height="463" frameX="0" frameY="0" frameWidth="409" frameHeight="463"/>
+	<SubTexture name="BF RMISS0000" x="4654" y="0" width="408" height="463" frameX="-7" frameY="0" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0001" x="5069" y="0" width="395" height="435" frameX="0" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0002" x="5471" y="0" width="395" height="435" frameX="0" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0003" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0004" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0005" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0006" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0007" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0008" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0009" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0010" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0011" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0012" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0013" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0014" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0015" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0016" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0017" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0018" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0019" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0020" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0021" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0022" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF RMISS0023" x="5873" y="0" width="400" height="435" frameX="-1" frameY="-25" frameWidth="415" frameHeight="463"/>
+	<SubTexture name="BF UMISS0000" x="6280" y="0" width="387" height="474" frameX="-9" frameY="0" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0001" x="6674" y="0" width="369" height="450" frameX="0" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0002" x="7050" y="0" width="369" height="450" frameX="0" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0003" x="7426" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0004" x="7801" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0005" x="7801" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0006" x="0" y="481" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0007" x="0" y="481" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0008" x="7426" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0009" x="7426" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0010" x="7801" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0011" x="7801" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0012" x="0" y="481" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0013" x="0" y="481" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0014" x="7426" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0015" x="7426" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0016" x="7801" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0017" x="7801" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0018" x="0" y="481" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0019" x="0" y="481" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0020" x="7426" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0021" x="7426" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0022" x="7801" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UMISS0023" x="7801" y="0" width="368" height="450" frameX="-1" frameY="-18" frameWidth="396" frameHeight="474"/>
+	<SubTexture name="BF UP0000" x="375" y="481" width="387" height="474" frameX="-5" frameY="0" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0001" x="375" y="481" width="387" height="474" frameX="-5" frameY="0" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0002" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0003" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0004" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0005" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0006" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0007" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0008" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0009" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0010" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0011" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0012" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0013" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF UP0014" x="769" y="481" width="390" height="460" frameX="0" frameY="-14" frameWidth="392" frameHeight="474"/>
+	<SubTexture name="BF and Creep DMISS0000" x="1166" y="481" width="462" height="386" frameX="-1" frameY="-6" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0001" x="1635" y="481" width="482" height="392" frameX="-1" frameY="0" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0002" x="1635" y="481" width="482" height="392" frameX="-1" frameY="0" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0003" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0004" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0005" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0006" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0007" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0008" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0009" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0010" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0011" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0012" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0013" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0014" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0015" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0016" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0017" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0018" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0019" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0020" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0021" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0022" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0023" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0024" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0025" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0026" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0027" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DMISS0028" x="2124" y="481" width="485" height="388" frameX="0" frameY="-4" frameWidth="485" frameHeight="392"/>
+	<SubTexture name="BF and Creep DOWN0000" x="2616" y="481" width="461" height="386" frameX="-1" frameY="-5" frameWidth="465" frameHeight="391"/>
+	<SubTexture name="BF and Creep DOWN0001" x="2616" y="481" width="461" height="386" frameX="-1" frameY="-5" frameWidth="465" frameHeight="391"/>
+	<SubTexture name="BF and Creep DOWN0002" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0003" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0004" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0005" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0006" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0007" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0008" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0009" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0010" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0011" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0012" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0013" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0014" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0015" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0016" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0017" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0018" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0019" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0020" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0021" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0022" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0023" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0024" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0025" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0026" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0027" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0028" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep DOWN0029" x="3084" y="481" width="465" height="391"/>
+	<SubTexture name="BF and Creep LEFT0000" x="3556" y="481" width="444" height="431" frameX="0" frameY="-11" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0001" x="3556" y="481" width="444" height="431" frameX="0" frameY="-11" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0002" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0003" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0004" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0005" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0006" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0007" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0008" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0009" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0010" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0011" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0012" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0013" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LEFT0014" x="4007" y="481" width="439" height="442" frameX="-7" frameY="0" frameWidth="446" frameHeight="442"/>
+	<SubTexture name="BF and Creep LMISS0000" x="4453" y="481" width="444" height="431" frameX="0" frameY="-1" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0001" x="4904" y="481" width="439" height="430" frameX="-6" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0002" x="4904" y="481" width="439" height="430" frameX="-6" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0003" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0004" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0005" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0006" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0007" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0008" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0009" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0010" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0011" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0012" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0013" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0014" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0015" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0016" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0017" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0018" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0019" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0020" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0021" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0022" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0023" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0024" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0025" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0026" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0027" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0028" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0029" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0030" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0031" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0032" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep LMISS0033" x="5350" y="481" width="444" height="430" frameX="0" frameY="0" frameWidth="445" frameHeight="432"/>
+	<SubTexture name="BF and Creep RIGHT0000" x="5801" y="481" width="517" height="405" frameX="-1" frameY="-2" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0001" x="5801" y="481" width="517" height="405" frameX="-1" frameY="-2" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0002" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0003" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0004" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0005" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0006" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0007" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0008" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0009" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0010" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0011" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0012" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0013" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0014" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0015" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0016" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0017" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0018" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0019" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0020" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0021" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0022" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0023" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0024" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0025" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0026" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0027" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0028" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0029" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0030" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0031" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0032" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0033" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0034" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0035" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0036" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0037" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0038" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0039" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0040" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0041" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0042" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0043" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0044" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0045" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0046" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0047" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0048" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0049" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0050" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0051" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0052" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0053" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0054" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0055" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0056" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0057" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0058" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0059" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0060" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RIGHT0061" x="6325" y="481" width="508" height="407" frameX="0" frameY="0" frameWidth="518" frameHeight="407"/>
+	<SubTexture name="BF and Creep RMISS0000" x="6840" y="481" width="517" height="405" frameX="-7" frameY="-30" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0001" x="7364" y="481" width="515" height="432" frameX="0" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0002" x="0" y="962" width="515" height="432" frameX="0" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0003" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0004" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0005" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0006" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0007" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0008" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0009" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0010" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0011" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0012" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0013" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0014" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0015" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0016" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0017" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0018" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0019" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0020" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0021" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0022" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep RMISS0023" x="522" y="962" width="519" height="432" frameX="-1" frameY="0" frameWidth="524" frameHeight="435"/>
+	<SubTexture name="BF and Creep UMISS0000" x="1048" y="962" width="420" height="469"/>
+	<SubTexture name="BF and Creep UMISS0001" x="1475" y="962" width="393" height="427" frameX="-9" frameY="-36" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0002" x="1875" y="962" width="393" height="427" frameX="-9" frameY="-36" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0003" x="2275" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0004" x="2671" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0005" x="2671" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0006" x="3067" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0007" x="3067" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0008" x="2275" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0009" x="2275" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0010" x="2671" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0011" x="2671" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0012" x="3067" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0013" x="3067" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0014" x="2275" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0015" x="2275" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0016" x="2671" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0017" x="2671" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0018" x="3067" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0019" x="3067" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0020" x="2275" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0021" x="2275" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0022" x="2671" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UMISS0023" x="2671" y="962" width="389" height="430" frameX="-11" frameY="-33" frameWidth="420" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0000" x="3463" y="962" width="420" height="469" frameX="0" frameY="0" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0001" x="3463" y="962" width="420" height="469" frameX="0" frameY="0" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0002" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0003" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0004" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0005" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0006" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0007" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0008" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0009" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0010" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0011" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0012" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0013" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep UP0014" x="3890" y="962" width="417" height="457" frameX="-5" frameY="-12" frameWidth="422" frameHeight="469"/>
+	<SubTexture name="BF and Creep afraid0000" x="4314" y="962" width="397" height="438" frameX="-1" frameY="-2" frameWidth="399" frameHeight="440"/>
+	<SubTexture name="BF and Creep afraid0001" x="4718" y="962" width="398" height="437" frameX="-1" frameY="-3" frameWidth="399" frameHeight="440"/>
+	<SubTexture name="BF and Creep afraid0002" x="5123" y="962" width="397" height="436" frameX="-1" frameY="-4" frameWidth="399" frameHeight="440"/>
+	<SubTexture name="BF and Creep afraid0003" x="5527" y="962" width="399" height="440"/>
+	<SubTexture name="BF and Creep cheer up0000" x="5933" y="962" width="401" height="416" frameX="-19" frameY="-1" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0001" x="5933" y="962" width="401" height="416" frameX="-19" frameY="-1" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0002" x="6341" y="962" width="434" height="419" frameX="-5" frameY="0" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0003" x="6341" y="962" width="434" height="419" frameX="-5" frameY="0" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0004" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0005" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0006" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0007" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0008" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0009" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0010" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0011" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0012" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0013" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0014" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0015" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0016" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0017" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0018" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0019" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0020" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0021" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0022" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0023" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0024" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep cheer up0025" x="6782" y="962" width="440" height="417" frameX="0" frameY="-2" frameWidth="440" frameHeight="419"/>
+	<SubTexture name="BF and Creep shakenbob0000" x="7229" y="962" width="395" height="479" frameX="-1" frameY="-43" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0001" x="7631" y="962" width="395" height="483" frameX="-1" frameY="-39" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0002" x="0" y="1452" width="397" height="491" frameX="0" frameY="-31" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0003" x="404" y="1452" width="397" height="495" frameX="0" frameY="-27" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0004" x="808" y="1452" width="394" height="502" frameX="-3" frameY="-20" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0005" x="1209" y="1452" width="394" height="504" frameX="-3" frameY="-18" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0006" x="1610" y="1452" width="399" height="512" frameX="-1" frameY="-10" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0007" x="2016" y="1452" width="399" height="514" frameX="-1" frameY="-8" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0008" x="2422" y="1452" width="397" height="520" frameX="-2" frameY="-2" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0009" x="2826" y="1452" width="397" height="522" frameX="-2" frameY="0" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0010" x="2422" y="1452" width="397" height="520" frameX="-2" frameY="-2" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0011" x="3230" y="1452" width="397" height="519" frameX="-2" frameY="-3" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0012" x="3634" y="1452" width="397" height="519" frameX="-2" frameY="-3" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="BF and Creep shakenbob0013" x="4038" y="1452" width="397" height="521" frameX="-2" frameY="-1" frameWidth="400" frameHeight="522"/>
+	<SubTexture name="Creep DMISS0000" x="4442" y="1452" width="490" height="393" frameX="0" frameY="-1" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0001" x="4939" y="1452" width="485" height="394" frameX="-2" frameY="0" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0002" x="5431" y="1452" width="485" height="388" frameX="-2" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0003" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0004" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0005" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0006" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0007" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0008" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0009" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0010" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0011" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0012" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0013" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0014" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0015" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0016" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0017" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0018" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0019" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0020" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0021" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0022" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0023" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0024" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0025" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0026" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0027" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DMISS0028" x="5923" y="1452" width="490" height="388" frameX="0" frameY="-6" frameWidth="490" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0000" x="6420" y="1452" width="490" height="394" frameX="0" frameY="0" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0001" x="6420" y="1452" width="490" height="394" frameX="0" frameY="0" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0002" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0003" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0004" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0005" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0006" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0007" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0008" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0009" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0010" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0011" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0012" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0013" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0014" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0015" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0016" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0017" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0018" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0019" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0020" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0021" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0022" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0023" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0024" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0025" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0026" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0027" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0028" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep DOWN0029" x="6917" y="1452" width="493" height="385" frameX="0" frameY="-9" frameWidth="493" frameHeight="394"/>
+	<SubTexture name="Creep LEFT0000" x="7417" y="1452" width="524" height="449"/>
+	<SubTexture name="Creep LEFT0001" x="7417" y="1452" width="524" height="449"/>
+	<SubTexture name="Creep LEFT0002" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0003" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0004" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0005" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0006" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0007" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0008" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0009" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0010" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0011" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0012" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0013" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LEFT0014" x="0" y="1981" width="511" height="448" frameX="-9" frameY="-1" frameWidth="524" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0000" x="518" y="1981" width="525" height="449"/>
+	<SubTexture name="Creep LMISS0001" x="1050" y="1981" width="509" height="419" frameX="-16" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0002" x="1566" y="1981" width="509" height="419" frameX="-16" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0003" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0004" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0005" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0006" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0007" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0008" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0009" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0010" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0011" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0012" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0013" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0014" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0015" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0016" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0017" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0018" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0019" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0020" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0021" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0022" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0023" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0024" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0025" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0026" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0027" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0028" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0029" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0030" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0031" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0032" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep LMISS0033" x="2082" y="1981" width="495" height="419" frameX="-30" frameY="-30" frameWidth="525" frameHeight="449"/>
+	<SubTexture name="Creep RIGHT0000" x="2584" y="1981" width="489" height="401" frameX="-6" frameY="0" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0001" x="2584" y="1981" width="489" height="401" frameX="-6" frameY="0" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0002" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0003" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0004" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0005" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0006" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0007" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0008" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0009" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0010" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0011" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0012" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0013" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0014" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0015" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0016" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0017" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0018" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0019" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0020" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0021" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0022" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0023" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0024" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0025" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0026" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0027" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0028" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0029" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0030" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0031" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0032" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0033" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0034" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0035" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0036" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0037" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0038" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0039" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0040" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0041" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0042" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0043" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0044" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0045" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0046" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0047" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0048" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0049" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0050" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0051" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0052" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0053" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0054" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0055" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0056" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0057" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0058" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0059" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0060" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RIGHT0061" x="3080" y="1981" width="485" height="392" frameX="0" frameY="-9" frameWidth="495" frameHeight="401"/>
+	<SubTexture name="Creep RMISS0000" x="3572" y="1981" width="489" height="400" frameX="-4" frameY="-1" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0001" x="4068" y="1981" width="492" height="402" frameX="-4" frameY="0" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0002" x="4567" y="1981" width="496" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0003" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0004" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0005" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0006" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0007" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0008" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0009" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0010" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0011" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0012" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0013" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0014" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0015" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0016" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0017" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0018" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0019" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0020" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0021" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0022" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep RMISS0023" x="5070" y="1981" width="495" height="389" frameX="0" frameY="-13" frameWidth="496" frameHeight="402"/>
+	<SubTexture name="Creep UMISS0000" x="5572" y="1981" width="473" height="482"/>
+	<SubTexture name="Creep UMISS0001" x="6052" y="1981" width="467" height="480" frameX="-6" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0002" x="6526" y="1981" width="464" height="479" frameX="-6" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0003" x="6997" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0004" x="7463" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0005" x="7463" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0006" x="0" y="2470" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0007" x="0" y="2470" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0008" x="6997" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0009" x="6997" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0010" x="7463" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0011" x="7463" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0012" x="0" y="2470" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0013" x="0" y="2470" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0014" x="6997" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0015" x="6997" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0016" x="7463" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0017" x="7463" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0018" x="0" y="2470" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0019" x="0" y="2470" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0020" x="6997" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0021" x="6997" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0022" x="7463" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UMISS0023" x="7463" y="1981" width="459" height="479" frameX="-11" frameY="-2" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0000" x="466" y="2470" width="473" height="482"/>
+	<SubTexture name="Creep UP0001" x="466" y="2470" width="473" height="482"/>
+	<SubTexture name="Creep UP0002" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0003" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0004" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0005" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0006" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0007" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0008" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0009" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0010" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0011" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0012" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0013" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creep UP0014" x="946" y="2470" width="467" height="471" frameX="-3" frameY="-11" frameWidth="473" frameHeight="482"/>
+	<SubTexture name="Creeper explodes0000" x="1420" y="2470" width="520" height="505" frameX="-41" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0001" x="1947" y="2470" width="520" height="505" frameX="-41" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0002" x="2474" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0003" x="3009" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0004" x="3544" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0005" x="3009" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0006" x="4079" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0007" x="4614" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0008" x="5149" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0009" x="5684" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0010" x="6219" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0011" x="6754" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0012" x="7289" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0013" x="3009" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0014" x="0" y="2985" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0015" x="3009" y="2470" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0016" x="535" y="2985" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0017" x="1070" y="2985" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0018" x="1605" y="2985" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0019" x="2140" y="2985" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0020" x="1605" y="2985" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0021" x="2675" y="2985" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0022" x="3210" y="2985" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0023" x="3745" y="2985" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0024" x="4280" y="2985" width="528" height="508" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0025" x="4815" y="2985" width="530" height="555" frameX="-40" frameY="-53" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0026" x="5352" y="2985" width="568" height="608" frameX="-40" frameY="0" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0027" x="5927" y="2985" width="680" height="531" frameX="-40" frameY="-68" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0028" x="6614" y="2985" width="714" height="610" frameX="-40" frameY="-41" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0029" x="7335" y="2985" width="710" height="560" frameX="-40" frameY="-42" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0030" x="0" y="3602" width="627" height="518" frameX="-73" frameY="-89" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0031" x="634" y="3602" width="619" height="570" frameX="-65" frameY="-31" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0032" x="1260" y="3602" width="706" height="620" frameX="-19" frameY="-9" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0033" x="1973" y="3602" width="696" height="654" frameX="0" frameY="0" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0034" x="2676" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0035" x="3090" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0036" x="3504" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0037" x="3918" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0038" x="4332" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0039" x="4746" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0040" x="5160" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0041" x="5574" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0042" x="5988" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0043" x="6402" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0044" x="6816" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0045" x="7230" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0046" x="7644" y="3602" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0047" x="0" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0048" x="414" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0049" x="828" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0050" x="1242" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0051" x="1656" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0052" x="2070" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0053" x="2484" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0054" x="2898" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0055" x="3312" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0056" x="3726" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Creeper explodes0057" x="4140" y="4263" width="407" height="378" frameX="-74" frameY="-223" frameWidth="754" frameHeight="654"/>
+	<SubTexture name="Respawning0000" x="4554" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0001" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0002" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0003" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0004" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0005" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0006" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0007" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0008" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0009" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0010" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0011" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0012" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0013" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0014" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0015" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0016" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0017" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0018" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0019" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0020" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0021" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0022" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0023" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0024" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0025" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0026" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0027" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0028" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0029" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0030" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0031" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0032" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="Respawning0033" x="4968" y="4263" width="407" height="378"/>
+	<SubTexture name="YOU DIED loop0000" x="4554" y="4263" width="407" height="378" frameX="0" frameY="-12" frameWidth="407" frameHeight="378"/>
+	<SubTexture name="YOU DIED loop0001" x="5382" y="4263" width="437" height="390"/>
+	<SubTexture name="YOU DIED loop0002" x="5382" y="4263" width="437" height="390"/>
+	<SubTexture name="YOU DIED loop0003" x="5826" y="4263" width="428" height="386" frameX="0" frameY="-4" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0004" x="5826" y="4263" width="428" height="386" frameX="0" frameY="-4" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0005" x="6261" y="4263" width="418" height="382" frameX="0" frameY="-8" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0006" x="6261" y="4263" width="418" height="382" frameX="0" frameY="-8" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0007" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0008" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0009" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0010" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0011" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0012" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0013" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0014" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0015" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0016" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0017" x="4554" y="4263" width="407" height="378" frameX="0" frameY="-12" frameWidth="407" frameHeight="378"/>
+	<SubTexture name="YOU DIED loop0018" x="5382" y="4263" width="437" height="390"/>
+	<SubTexture name="YOU DIED loop0019" x="5382" y="4263" width="437" height="390"/>
+	<SubTexture name="YOU DIED loop0020" x="5826" y="4263" width="428" height="386" frameX="0" frameY="-4" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0021" x="5826" y="4263" width="428" height="386" frameX="0" frameY="-4" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0022" x="6261" y="4263" width="418" height="382" frameX="0" frameY="-8" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0023" x="6261" y="4263" width="418" height="382" frameX="0" frameY="-8" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0024" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0025" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0026" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0027" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0028" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0029" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0030" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0031" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0032" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+	<SubTexture name="YOU DIED loop0033" x="6686" y="4263" width="408" height="378" frameX="0" frameY="-12" frameWidth="437" frameHeight="390"/>
+</TextureAtlas>

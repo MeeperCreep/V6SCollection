@@ -1,0 +1,54 @@
+Just wanted to leave a documentation here for people who wanna use the hiss/health drain mechanic in modcharts.
+
+====================
+
+So basically, the syntax is healthDrain(loss:Float, time:Float)
+It acts just like any function already in modcharts!
+
+Loss is the amount of health to drain and time is the amount of time it will take to drain that health. If time is set to 0, it will instantly take away the health based on the set loss. Otherwise, it will slowly drain based on the time set.
+
+Keep in mind that the max health bar value is 2, and if you, for example, want to drain 25% of the maximum health (2 * 25% = 0.5), the drain should be set to 0.5.
+Keep in mind that by hitting 'sick' notes, you could easily counter/recover easily since 'sick' notes restore 0.1 health.
+
+There we go! Simple as that!
+
+Now, you have to assign it to a step or beat in the song to indicate WHERE in the song the healthDrain should play. In my case, everytime 6Soup hisses in the song, I take note of the curStep from the Chart Editor and then put those numbers in if-else statements in the stepHit function. (seriously, lua doesn't have switch statements?)
+
+Sorry if it's confusing af, I'm just dumb.
+Just use my modchart as example.
+
+====================
+
+To go more in-depth on how the function actually works in the code. It's really simple, maybe even inefficient since I am really a rookie on code.
+
+Basically a flxTimer is utilized to slowly take away the health with a set amount of loops. There are 3 internal variables in the function: drainRate, loopRate and drainDelay.
+
+- drainRate is the amount of health to take away per loop | [formula: (loss / time) / 100]
+- loopRate is the amount of loops to do before stopping | [formula: time * 100]
+- drainDelay is the delay between loops | [formula: time / loopRate]
+
+I have to deal with some big brain maths to make the function as simple to understand as possible, It makes it easier to just have to input the loss and time instead of calculating it everytime you wanna add a healthDrain function.
+
+Side note: I don't think I'll even use this unneccessarily complicated function for anything other than this song, so this is a big waste of my time.
+
+====================
+
+Update: I added a new parameter, it's called deadzone:Bool. It defaults to false if you don't put anything.
+
+It drops you down to extremely low health, but no matter what, it doesn't kill you (as long as you're above 0.5% health).
+
+It's good for things where you don't actually want the player to die but still want to scare them into thinking they will... well, they actually will if they miss a few notes during the healthdrain since it's near death, but it's on them if they die, not the healthdrain itself.
+
+modchart: healthDrain(loss, time, deadzone)
+
+Note that the loss parameter is ignored if deadzone is true, since it will use another value based on the health: |(0.1 - currenthealth)|
+
+====================
+
+Originally, the triggers for this mechanic is hardcoded into the game, which isn't necessarily bad... But considering this mod will probably never blow up any time soon, it's extremely unnecessary. But yeah, I'm stubborn... so I made it accessible through modcharting, at least only in this specific mod.
+
+If you want to add this to your mod, you can get the source code at
+https://github.com/MeeperCreep/V6SCollection
+What you're looking for is "public function hissAF" in PlayState.hx and line 661 in ModchartState.hx
+
+Have fun!

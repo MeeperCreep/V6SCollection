@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CatSoup-Angwy.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="angwy catsoup down0000" x="0" y="0" width="482" height="266" frameX="-1" frameY="0" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0001" x="0" y="0" width="482" height="266" frameX="-1" frameY="0" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0002" x="489" y="0" width="477" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0003" x="489" y="0" width="477" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0004" x="973" y="0" width="475" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0005" x="973" y="0" width="475" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0006" x="489" y="0" width="477" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0007" x="489" y="0" width="477" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0008" x="973" y="0" width="475" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0009" x="973" y="0" width="475" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0010" x="489" y="0" width="477" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0011" x="489" y="0" width="477" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0012" x="973" y="0" width="475" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0013" x="973" y="0" width="475" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup down0014" x="489" y="0" width="477" height="257" frameX="0" frameY="-9" frameWidth="483" frameHeight="266"/>
+	<SubTexture name="angwy catsoup idle0000" x="1455" y="0" width="341" height="316" frameX="-10" frameY="-42" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0001" x="0" y="323" width="337" height="323" frameX="-9" frameY="-35" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0002" x="344" y="323" width="334" height="330" frameX="-7" frameY="-28" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0003" x="685" y="323" width="330" height="337" frameX="-5" frameY="-21" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0004" x="1022" y="323" width="327" height="344" frameX="-3" frameY="-14" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0005" x="1356" y="323" width="319" height="358" frameX="0" frameY="0" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0006" x="1356" y="323" width="319" height="358" frameX="0" frameY="0" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0007" x="1356" y="323" width="319" height="358" frameX="0" frameY="0" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0008" x="1356" y="323" width="319" height="358" frameX="0" frameY="0" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0009" x="1356" y="323" width="319" height="358" frameX="0" frameY="0" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0010" x="1356" y="323" width="319" height="358" frameX="0" frameY="0" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0011" x="1356" y="323" width="319" height="358" frameX="0" frameY="0" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0012" x="1356" y="323" width="319" height="358" frameX="0" frameY="0" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup idle0013" x="1356" y="323" width="319" height="358" frameX="0" frameY="0" frameWidth="351" frameHeight="358"/>
+	<SubTexture name="angwy catsoup left0000" x="1682" y="323" width="285" height="338" frameX="-22" frameY="0" frameWidth="323" frameHeight="338"/>
+	<SubTexture name="angwy catsoup left0001" x="1682" y="323" width="285" height="338" frameX="-22" frameY="0" frameWidth="323" frameHeight="338"/>
+	<SubTexture name="angwy catsoup left0002" x="0" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0003" x="0" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0004" x="330" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0005" x="330" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0006" x="0" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0007" x="0" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0008" x="330" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0009" x="330" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0010" x="0" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0011" x="0" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0012" x="330" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0013" x="330" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup left0014" x="0" y="688" width="323" height="338"/>
+	<SubTexture name="angwy catsoup right0000" x="660" y="688" width="422" height="309" frameX="-20" frameY="0" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0001" x="660" y="688" width="422" height="309" frameX="-20" frameY="0" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0002" x="1089" y="688" width="441" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0003" x="1089" y="688" width="441" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0004" x="1537" y="688" width="442" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0005" x="1537" y="688" width="442" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0006" x="1089" y="688" width="441" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0007" x="1089" y="688" width="441" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0008" x="1537" y="688" width="442" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0009" x="1537" y="688" width="442" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0010" x="1089" y="688" width="441" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0011" x="1089" y="688" width="441" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0012" x="1537" y="688" width="442" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0013" x="1537" y="688" width="442" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup right0014" x="1089" y="688" width="441" height="297" frameX="0" frameY="-10" frameWidth="442" frameHeight="309"/>
+	<SubTexture name="angwy catsoup up0000" x="0" y="1033" width="343" height="332" frameX="-7" frameY="0" frameWidth="372" frameHeight="332"/>
+	<SubTexture name="angwy catsoup up0001" x="0" y="1033" width="343" height="332" frameX="-7" frameY="0" frameWidth="372" frameHeight="332"/>
+	<SubTexture name="angwy catsoup up0002" x="350" y="1033" width="372" height="324" frameX="0" frameY="-7" frameWidth="372" frameHeight="332"/>
+	<SubTexture name="angwy catsoup up0003" x="350" y="1033" width="372" height="324" frameX="0" frameY="-7" frameWidth="372" frameHeight="332"/>
+	<SubTexture name="unamused0000" x="729" y="1033" width="513" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0001" x="729" y="1033" width="513" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0002" x="729" y="1033" width="513" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0003" x="729" y="1033" width="513" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0004" x="729" y="1033" width="513" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0005" x="729" y="1033" width="513" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0006" x="1249" y="1033" width="565" height="299"/>
+	<SubTexture name="unamused0007" x="0" y="1372" width="530" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0008" x="0" y="1372" width="530" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0009" x="537" y="1372" width="535" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0010" x="537" y="1372" width="535" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0011" x="1079" y="1372" width="536" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0012" x="1079" y="1372" width="536" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0013" x="0" y="1678" width="535" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+	<SubTexture name="unamused0014" x="0" y="1678" width="535" height="299" frameX="0" frameY="0" frameWidth="565" frameHeight="299"/>
+</TextureAtlas>
