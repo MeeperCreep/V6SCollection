@@ -26,7 +26,7 @@ class Note extends FlxSprite
 	public var modifiedByLua:Bool = false;
 	public var sustainLength:Float = 0;
 	public var isSustainNote:Bool = false;
-	public var noteAnimCall:String;
+	public var animCall:String;
 
 	public var noteScore:Float = 1;
 
@@ -38,7 +38,7 @@ class Note extends FlxSprite
 
 	public var rating:String = "shit";
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?noteAnimCall:String)
+	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?animCall:String)
 	{
 		super();
 
@@ -47,10 +47,10 @@ class Note extends FlxSprite
 
 		this.prevNote = prevNote;
 		
-		if (noteAnimCall != null)
-			this.noteAnimCall = noteAnimCall;
+		if (animCall != null)
+			this.animCall = animCall;
 		else
-			this.noteAnimCall = "";
+			this.animCall = "";
 			
 		isSustainNote = sustainNote;
 
@@ -70,7 +70,7 @@ class Note extends FlxSprite
 		{
 			default:
 				if (FlxG.save.data.soupNotes)
-					frames = Paths.getSparrowAtlas('memesmith/NOTEBLOCK_assets', 'weekseub');
+					frames = Paths.getSparrowAtlas('NOTEBLOCK_assets', 'weekseub');
 				else 
 					frames = Paths.getSparrowAtlas('NOTE_assets');
 
@@ -140,9 +140,6 @@ class Note extends FlxSprite
 			updateHitbox();
 
 			x -= width / 2;
-
-			if (PlayState.curStage.startsWith('school'))
-				x += 30;
 
 			if (prevNote.isSustainNote)
 			{

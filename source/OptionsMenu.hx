@@ -34,7 +34,7 @@ class OptionsMenu extends MusicBeatState
 			#end
 			new ScrollSpeedOption("Change your scroll speed (1 = Chart dependent)"),
 			new AccuracyDOption("Change how accuracy is calculated. (Accurate = Simple, Complex = Milisecond Based)"),
-			new ResetButtonOption("Toggle pressing R to gameover."),
+			new ResetButtonOption("Toggle pressing R to quick restart/gameover."),
 			new CustomizeGameplay("Drag'n'Drop Gameplay Modules around to your preference")
 		]),
 		
@@ -47,17 +47,13 @@ class OptionsMenu extends MusicBeatState
 			new SongPositionOption("Show the songs current position (as a bar)"),
 			new CpuStrums("CPU's strumline lights up when a note hits it."),
 			new NPSDisplayOption("Shows your current Notes Per Second."),
-			new RainbowFPSOption("Make the FPS Counter Rainbow")
+			new RainbowFPSOption("Make the FPS Counter Rainbow"),
+			new FullScreenShitLmao("Want to be fully immersed in the world of Friday Night Funkin'?"),
 			#else
 			new NoteSoupMod("Toggle the default notes to be 6Soup's Note Skin Mod!"),
 			new DistractionsAndEffectsOption("Toggle stage distractions that can hinder your gameplay."),
 			new SparkleEffectOnSickNotes("Shows you a sparkle effect whenever you hit a SICK note.")
 			#end
-		]),
-		
-		new OptionCategory("Modifiers", [
-			new NoFail("You will not die from health loss until the song ends."),
-			new HissedToNearDeath("When enabled, every hiss drops you to dangerously low health...")
 		]),
 		
 		new OptionCategory("Misc", [
@@ -67,6 +63,7 @@ class OptionsMenu extends MusicBeatState
 			#end
 			new FlashingLightsOption("Toggle flashing lights that can cause epileptic seizures and strain."),
 			new BotPlay("Showcase your charts and mods with autoplay."),
+			new NoFail("You will not die from health loss until the song ends."),
 			new StupidAnnoyingPopSFX("Plays a sound effect whenever you hit note."),
 			new OffsetMenu("Get a note offset based off of your inputs!")
 		])

@@ -20,6 +20,7 @@ class HealthIcon extends FlxSprite
 		animation.add('bf', [0, 1], 0, false, isPlayer);
 		animation.add('bf-christmas', [0, 1], 0, false, isPlayer);
 		animation.add('bf-blockhead', [0, 1], 0, false, isPlayer);
+		animation.add('bf-micless', [0, 1, 25], 0, false, isPlayer);
 		animation.add('bf-withcreeper', [14, 15], 0, false, isPlayer);
 		animation.add('bf-old', [2, 3], 0, false, isPlayer);
 		animation.add('gf', [5], 0, false, isPlayer);
@@ -33,14 +34,15 @@ class HealthIcon extends FlxSprite
 		animation.add('oreo-jinbap', [16, 17], 0, false, isPlayer);
 		animation.add('dansoup', [18, 19], 0, false, isPlayer);
 		animation.add('dansoup-deranged', [20, 21], 0, false, isPlayer);
-		animation.add('meepster', [22, 23], 0, false, isPlayer);
-		animation.add('willg', [24, 25], 0, false, isPlayer);
-		animation.add('skookie', [26, 27], 0, false, isPlayer);
+		animation.add('meepster', [22, 23, 24], 0, false, isPlayer);
+		animation.add('willg', [26, 27], 0, false, isPlayer);
+		animation.add('skookie', [28, 29], 0, false, isPlayer);
 		// Freeplay Icons
 		animation.add('milestoner', [50], 0, false, isPlayer);
 		animation.add('catsouper', [51], 0, false, isPlayer);
 		animation.add('catsouper-hiss', [52], 0, false, isPlayer);
 		animation.add('nightcorer', [53], 0, false, isPlayer);
+		animation.add('mtt-meeper', [54], 0, false, isPlayer);
 		
 		animation.play(char);
 

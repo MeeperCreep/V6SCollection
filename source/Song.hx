@@ -47,17 +47,18 @@ class Song
 	public static function loadFromJson(jsonInput:String, ?folder:String):SwagSong
 	{
 		var newFolder = StringTools.replace(folder, " ", "-").toLowerCase();
+		var newJson = StringTools.replace(jsonInput, " ", "-").toLowerCase();
 		
-		trace('loading ' + newFolder + '/' + StringTools.replace(jsonInput, " ", "-").toLowerCase());
+		trace('loading ' + newFolder + '/' + newJson);
 		
 		// hardcoded spaces to be replaced by dashes here instead of calling stringtools everywhere!
-		var rawJson = Assets.getText(Paths.json(newFolder + '/' + StringTools.replace(jsonInput, " ", "-").toLowerCase())).trim();
+		var rawJson = Assets.getText(Paths.json(newFolder + '/' + newJson)).trim();
 
 		while (!rawJson.endsWith("}"))
 		{
 			rawJson = rawJson.substr(0, rawJson.length - 1);
 		}
-
+		
 		return parseJSONshit(rawJson);
 	}
 

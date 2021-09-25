@@ -173,27 +173,36 @@ class TitleState extends MusicBeatState
 
 		var soupRandom:Int = Random.int(1,100);
 		trace("Dice rolls " + soupRandom);
-		var soupVar:String;
+		var soupVar:String = '';
 		var sWv:Float = 0.4;
 		var sHv:Float = 0.13;
 		
 		// Randomize the title dance shit lmao
-		if (soupRandom > 50) {
+		if (soupRandom <= 6) {
 			soupVar = '_altH';
-			sWv = 0.4;
 			sHv = 0.19;
 		}
-		else {
-			soupVar = '';
-			sWv = 0.4;
-			sHv = 0.13;
+		else if (soupRandom <= 12)
+			soupVar = '_altC';
+		else if (soupRandom <= 18) {
+			soupVar = '_altK';
+			sHv = 0.08;
 		}
+		else if (soupRandom <= 21){
+			soupVar = '_ruv';
+			sHv = 0.12;
+		}
+		else if (soupRandom <= 23)
+			soupVar = '_sus';
+		else if (soupRandom <= 25)
+			soupVar = '_ugh';
 		
 		soupDance = new FlxSprite(FlxG.width * sWv, FlxG.height * sHv);
 		soupDance.frames = Paths.getSparrowAtlas('soupDanceTitle');
 		soupDance.animation.addByIndices('danceLeft', 'soupDance' + soupVar, [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
 		soupDance.animation.addByIndices('danceRight', 'soupDance' + soupVar, [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
 		soupDance.antialiasing = true;
+		//soupDance.cutenessFactor = 100;
 		
 		add(soupDance);
 		add(logoBl);
@@ -256,9 +265,7 @@ class TitleState extends MusicBeatState
 			Conductor.songPosition = FlxG.sound.music.time;
 
 		if (FlxG.keys.justPressed.F)
-		{
 			FlxG.fullscreen = !FlxG.fullscreen;
-		}
 
 		var pressedEnter:Bool = FlxG.keys.justPressed.ENTER;
 
@@ -266,9 +273,7 @@ class TitleState extends MusicBeatState
 		for (touch in FlxG.touches.list)
 		{
 			if (touch.justPressed)
-			{
 				pressedEnter = true;
-			}
 		}
 		#end
 

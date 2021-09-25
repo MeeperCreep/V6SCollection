@@ -9,6 +9,7 @@ import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxTimer;
 import flixel.util.FlxColor;
+import flixel.util.FlxTimer;
 import lime.utils.Assets;
 
 
@@ -32,9 +33,12 @@ class FreeplayState extends MusicBeatState
 	var lerpScore:Int = 0;
 	var intendedScore:Int = 0;
 	var combo:String = '';
+	
+	var songWait:FlxTimer = new FlxTimer();
 
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
+	private var jukebox:String;
 
 	private var iconArray:Array<HealthIcon> = [];
 	var trackedAssets:Array<Dynamic> = [];
@@ -224,25 +228,33 @@ class FreeplayState extends MusicBeatState
 
 	function changeDiff(change:Int = 0)
 	{
-		curDifficulty += change;
+		if(songs[curSelected].songName.toLowerCase() == "refrain")
+		{
+			curDifficulty = 1; //locks it to hard difficulty, temporary solution until we get da normal diff charting lol
+			diffText.text = "HARD";
+		}
+		else
+		{
+			curDifficulty += change;
 
-		if (curDifficulty < 0)
-			curDifficulty = 1;
-		if (curDifficulty > 1)
-			curDifficulty = 0;
+			if (curDifficulty < 0)
+				curDifficulty = 1;
+			if (curDifficulty > 1)
+				curDifficulty = 0;
 
+			switch (curDifficulty)
+			{
+				case 0:
+					diffText.text = "NORMAL";
+				case 1:
+					diffText.text = 'HARD';
+			}
+		}
+		
 		#if !switch
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
 		combo = Highscore.getCombo(songs[curSelected].songName, curDifficulty);
 		#end
-
-		switch (curDifficulty)
-		{
-			case 0:
-				diffText.text = "NORMAL";
-			case 1:
-				diffText.text = 'HARD';
-		}
 	}
 
 	function changeSelection(change:Int = 0)
@@ -256,6 +268,8 @@ class FreeplayState extends MusicBeatState
 		if (curSelected >= songs.length)
 			curSelected = 0;
 
+		changeDiff();
+		
 		#if !switch
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
 		combo = Highscore.getCombo(songs[curSelected].songName, curDifficulty);
@@ -263,7 +277,14 @@ class FreeplayState extends MusicBeatState
 		#end
 
 		#if PRELOAD_ALL
-		FlxG.sound.playMusic(Paths.inst(songs[curSelected].songName), 0);
+		songWait.cancel();
+		if (jukebox != songs[curSelected].songName) // make it so if you go back to the song you originally selected, it doesnt start over :D
+		{
+			songWait.start(0.6, function(tmr:FlxTimer) {
+				FlxG.sound.playMusic(Paths.inst(songs[curSelected].songName), 0);
+				jukebox = songs[curSelected].songName;
+			});
+		}
 		#end
 
 		var bullShit:Int = 0;

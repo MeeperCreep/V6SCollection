@@ -35,9 +35,6 @@ class KadeEngineData
 		if (FlxG.save.data.annoyPop == null)
 			FlxG.save.data.annoyPop = false;
 		
-		if (FlxG.save.data.hardhiss == null)
-			FlxG.save.data.hardhiss = false;
-		
 		if (FlxG.save.data.soupNotes == null)
 			FlxG.save.data.soupNotes = false;
 		
@@ -83,6 +80,8 @@ class KadeEngineData
 
 		if (FlxG.save.data.resetButton == null)
 			FlxG.save.data.resetButton = false;
+		if (FlxG.save.data.resetType == null)
+			FlxG.save.data.resetType = 0;
 		
 		if (FlxG.save.data.botplay == null)
 			FlxG.save.data.botplay = false;

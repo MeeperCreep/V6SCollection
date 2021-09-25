@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="meep_TEMP.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="meep down0000" x="0" y="0" width="292" height="679" frameX="-6" frameY="-14" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0001" x="0" y="0" width="292" height="679" frameX="-6" frameY="-14" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0002" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0003" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0004" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0005" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0006" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0007" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0008" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0009" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0010" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0011" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep down0012" x="299" y="0" width="292" height="694" frameX="0" frameY="0" frameWidth="298" frameHeight="694"/>
+	<SubTexture name="meep idle0000" x="598" y="0" width="361" height="669" frameX="-9" frameY="-62" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0001" x="966" y="0" width="361" height="676" frameX="-8" frameY="-55" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0002" x="1334" y="0" width="361" height="683" frameX="-7" frameY="-48" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0003" x="1702" y="0" width="360" height="690" frameX="-6" frameY="-41" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0004" x="2069" y="0" width="361" height="697" frameX="-4" frameY="-34" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0005" x="2437" y="0" width="361" height="704" frameX="-3" frameY="-27" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0006" x="2805" y="0" width="361" height="712" frameX="-2" frameY="-19" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0007" x="3173" y="0" width="361" height="722" frameX="-1" frameY="-9" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0008" x="3541" y="0" width="361" height="731" frameX="0" frameY="0" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0009" x="3541" y="0" width="361" height="731" frameX="0" frameY="0" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0010" x="3541" y="0" width="361" height="731" frameX="0" frameY="0" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0011" x="3541" y="0" width="361" height="731" frameX="0" frameY="0" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0012" x="3541" y="0" width="361" height="731" frameX="0" frameY="0" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep idle0013" x="3541" y="0" width="361" height="731" frameX="0" frameY="0" frameWidth="370" frameHeight="731"/>
+	<SubTexture name="meep left0000" x="0" y="738" width="323" height="703" frameX="0" frameY="0" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0001" x="0" y="738" width="323" height="703" frameX="0" frameY="0" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0002" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0003" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0004" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0005" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0006" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0007" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0008" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0009" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0010" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0011" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0012" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep left0013" x="330" y="738" width="291" height="679" frameX="-53" frameY="-24" frameWidth="344" frameHeight="703"/>
+	<SubTexture name="meep right0000" x="628" y="738" width="343" height="691" frameX="-7" frameY="0" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0001" x="628" y="738" width="343" height="691" frameX="-7" frameY="0" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0002" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0003" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0004" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0005" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0006" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0007" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0008" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0009" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0010" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0011" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0012" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep right0013" x="978" y="738" width="331" height="672" frameX="0" frameY="-18" frameWidth="350" frameHeight="691"/>
+	<SubTexture name="meep up0000" x="1316" y="738" width="357" height="735"/>
+	<SubTexture name="meep up0001" x="1316" y="738" width="357" height="735"/>
+	<SubTexture name="meep up0002" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0003" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0004" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0005" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0006" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0007" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0008" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0009" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0010" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0011" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0012" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+	<SubTexture name="meep up0013" x="1680" y="738" width="316" height="717" frameX="-20" frameY="-18" frameWidth="357" frameHeight="735"/>
+</TextureAtlas>

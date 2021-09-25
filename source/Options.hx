@@ -221,6 +221,27 @@ class DistractionsAndEffectsOption extends Option
 	}
 }
 
+class FullScreenShitLmao extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.fullscreen = !FlxG.fullscreen;
+		display = updateDisplay();
+		return false;
+	}
+
+	private override function updateDisplay():String
+	{
+		return "Toggle Fullscreen";
+	}
+}
+
 class NoFail extends Option
 {
 	public function new(desc:String)
@@ -327,27 +348,6 @@ class StupidAnnoyingPopSFX extends Option
 	}
 }
 
-class HissedToNearDeath extends Option
-{
-	public function new(desc:String)
-	{
-		super();
-		description = desc;
-	}
-
-	public override function press():Bool
-	{
-		FlxG.save.data.hardhiss = !FlxG.save.data.hardhiss;
-		display = updateDisplay();
-		return true;
-	}
-
-	private override function updateDisplay():String
-	{
-		return "Hardcore Hiss " + (!FlxG.save.data.hardhiss ? "off" : "on");
-	}
-}
-
 class NoteSoupMod extends Option
 {
 	public function new(desc:String)
@@ -375,6 +375,7 @@ class ResetButtonOption extends Option
 	{
 		super();
 		description = desc;
+		acceptValues = true;
 	}
 	public override function press():Bool
 	{
@@ -386,6 +387,38 @@ class ResetButtonOption extends Option
 	private override function updateDisplay():String
 	{
 		return "Reset Button " + (!FlxG.save.data.resetButton ? "off" : "on");
+	}
+	
+	override function left():Bool
+	{	
+		FlxG.save.data.resetType -= 1;
+
+		if (FlxG.save.data.resetType < 0)
+			FlxG.save.data.resetType = 1;
+
+		if (FlxG.save.data.resetType > 1)
+			FlxG.save.data.resetType = 0;
+
+		return true;
+	}
+
+	override function right():Bool
+	{	
+		FlxG.save.data.resetType += 1;
+
+		if (FlxG.save.data.resetType < 0)
+			FlxG.save.data.resetType = 1;
+
+		if (FlxG.save.data.resetType > 1)
+			FlxG.save.data.resetType = 0;
+
+		return true;
+	}
+
+	override function getValue():String
+	{
+		
+		return "Reset Type: " + (FlxG.save.data.resetType == 1 ? "Quick Restart" : "Kill Bind") + " (Left, Right)";
 	}
 }
 

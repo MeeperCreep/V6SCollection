@@ -14,6 +14,7 @@ not kapi
 meow
 welcome souper
 initialized
+full week
 annyeonghaseyo
 subscribe
 server dead
@@ -24,3 +25,7 @@ note block
 uwu
 thanks and have fun
 chimney skip
+minceraft
+skill issue
+potassium
+hyperlink blocked

@@ -19,7 +19,7 @@ class Ratings
         else if (PlayState.misses < 6) // 5 misses max
             ranking = "(Sub-FC)";
 	    else if (PlayState.misses < 10) // Single Digit Combo Breaks
-            ranking = "(SDCB)";
+            ranking = "(Competent)";
         else
             ranking = "(Clear)"; // Pass
 
@@ -55,40 +55,23 @@ class Ratings
                 switch(i)
                 {
 				// Tbh, the AAAA ranking doesn't make that much sense to me so I changed it to be more traditional
-                    case 0:
-                        ranking += " SS";
-					case 1:
-                        ranking += " S++";
-                    case 2:
-                        ranking += " S+";
-                    case 3:
-                        ranking += " S";
-                    case 4:
-                        ranking += " A+";
-                    case 5:
-                        ranking += " A";
-                    case 6:
-                        ranking += " A-";
-                    case 7:
-                        ranking += " B+";
-                    case 8:
-                        ranking += " B";
-                    case 9:
-                        ranking += " B-";
-                    case 10:
-                        ranking += " C+";
-                    case 11:
-                        ranking += " C";
-                    case 12:
-                        ranking += " C-";
-                    case 13:
-                        ranking += " D+";
-                    case 14:
-                        ranking += " D";
-                    case 15:
-                        ranking += " E";
-                    case 16:
-                        ranking += " F";
+                    case 0: ranking += " SS";
+					case 1: ranking += " S++";
+                    case 2: ranking += " S+";
+                    case 3: ranking += " S";
+                    case 4: ranking += " A+";
+                    case 5: ranking += " A";
+                    case 6: ranking += " A-";
+                    case 7: ranking += " B+";
+                    case 8: ranking += " B";
+                    case 9: ranking += " B-";
+                    case 10: ranking += " C+";
+                    case 11: ranking += " C";
+                    case 12: ranking += " C-";
+                    case 13: ranking += " D+";
+                    case 14: ranking += " D";
+                    case 15: ranking += " E";
+                    case 16: ranking += " F";
                 }
                 break;
             }
@@ -110,15 +93,8 @@ class Ratings
         if (customSafeZone != null)
             customTimeScale = customSafeZone / 166;
 
-        // trace(customTimeScale + ' vs ' + Conductor.timeScale);
-
-        // I HATE THIS IF CONDITION
-        // IF LEMON SEES THIS I'M SORRY :(
-
-        // trace('Hit Info\nDifference: ' + noteDiff + '\nZone: ' + Conductor.safeZoneOffset * 1.5 + "\nTS: " + customTimeScale + "\nLate: " + 155 * customTimeScale);
-
-	if (FlxG.save.data.botplay)
-	    return "sick";
+		if (FlxG.save.data.botplay)
+			return "sick";
 	    
         if (noteDiff > 166 * customTimeScale) // so god damn fuckin early its a miss
             return "miss";

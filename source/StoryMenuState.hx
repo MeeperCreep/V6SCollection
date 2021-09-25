@@ -27,12 +27,12 @@ class StoryMenuState extends MusicBeatState
 		['Tutorial'],
 		['Milestone', 'Requested', 'Souped Up'],
 		['Hiss', 'Catsoup', 'K-Block'],
-		['Nightcore', 'Endcore', 'Creative Mode'],
+		['Nightcore', '???', '???'],
 		['Milestone', 'Catsoup', 'Nightcore']
 	];
 	var curDifficulty:Int = 0;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, false, false, true];
+	public static var weekUnlocked:Array<Bool> = [true, true, true, false, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['', 'bf', 'gf'],
@@ -290,13 +290,13 @@ class StoryMenuState extends MusicBeatState
 			new FlxTimer().start(1.3, function(tmr:FlxTimer)
 			{
 				unloadAssets();
-				if (curWeek == 1 && PlayState.storyPlaylist[0] == 'Milestone') {
-					LoadingState.loadAndSwitchState(new VideoState("assets/videos/Presentation1.webm", new PlayState(), true));
-					FlxG.sound.music.volume = 0;
-				//} else if () {
-				} else {
+				if (curWeek == 1 && PlayState.storyPlaylist[0] == 'Milestone')
+					LoadingState.loadAndSwitchState(new VideoState("assets/videos/Presentation1.webm", new PlayState(), true), true);
+					// FlxG.sound.music.volume = 0; -- I am stupid, loadAndSwitchState has a parameter to disable music already! ^
+				else if (curWeek == 2 && PlayState.storyPlaylist[0] == 'Hiss')
+					LoadingState.loadAndSwitchState(new VideoState("assets/videos/Presentation2.webm", new PlayState(), true), true);
+				else
 					LoadingState.loadAndSwitchState(new PlayState(), true);
-				}
 			});
 		}
 	}

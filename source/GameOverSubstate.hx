@@ -13,7 +13,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	var camFollow:FlxObject;
 
 	private var stageSuffix:String = '';
-	private var path:String = '';
+	private var path:String = 'shared';
 	private var daBf:String = '';
 
 	public function new(x:Float, y:Float)
@@ -29,9 +29,10 @@ class GameOverSubstate extends MusicBeatSubstate
 				stageSuffix = '_explodie';
 				daBf = 'bf-withcreeper';
 				path = 'weekseub';
+			case 'bf-micless':
+				daBf = 'bf-micless';
 			default:
 				daBf = 'bf';
-				path = 'shared';
 		}
 
 		super();

@@ -80,7 +80,7 @@ https://gamebanana.com/tuts/13798
 Special thanks to the contributors of the original VS 6Soup Mod:
 
 Daniel Memesmith -- literally cringe
-SuperWillGaming -- literally a bagel
+SuperWillGaming -- literally bagel
 Barkofriend -- literally boyfriend fnf
 NeoNuke -- literally lemon demon fnf
 Whitty347 -- literally whitty fnf

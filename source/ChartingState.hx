@@ -501,10 +501,10 @@ class ChartingState extends MusicBeatState
 		
 		var animCallLabel = new FlxText(10,130,64,'Alt Suffix');
 		
-		var altButton:FlxButton = new FlxButton(10, 170, "-alt", function()
+		/* var altButton:FlxButton = new FlxButton(10, 170, "-alt", function()
 		{
 			animCallSuffix.destroy();
-			animCallSuffix = new FlxUIInputText(10, 150, 70, '-alt', 8);
+			var animCallSuffix = new FlxUIInputText(10, 150, 70, '-alt', 8);
 			appendix = animCallSuffix;
 			tab_group_note.add(animCallSuffix);
 		});
@@ -515,15 +515,15 @@ class ChartingState extends MusicBeatState
 			animCallSuffix = new FlxUIInputText(10, 150, 70, '-duo', 8);
 			appendix = animCallSuffix;
 			tab_group_note.add(animCallSuffix);
-		});
+		}); */
 		
 		tab_group_note.add(stepperSusLength);
 		tab_group_note.add(stepperSusLengthLabel);
 		tab_group_note.add(applyLength);
 		tab_group_note.add(animCallSuffix);
 		tab_group_note.add(animCallLabel);
-		tab_group_note.add(altButton);
-		tab_group_note.add(duoButton);
+		// tab_group_note.add(altButton);
+		// tab_group_note.add(duoButton);
 
 		UI_box.addGroup(tab_group_note);
 
@@ -1426,12 +1426,12 @@ class ChartingState extends MusicBeatState
 		var noteStrum = getStrumTime(dummyArrow.y) + sectionStartTime();
 		var noteData = Math.floor(FlxG.mouse.x / GRID_SIZE);
 		var noteSus = 0;
-		var noteAnimCall = '';
+		var noteAnimCall:String = null;
 		if (FlxG.keys.pressed.X)
 			noteAnimCall = appendix.text;
 
 		if (n != null)
-			_song.notes[curSection].sectionNotes.push([n.strumTime, n.noteData, n.sustainLength, n.noteAnimCall]);
+			_song.notes[curSection].sectionNotes.push([n.strumTime, n.noteData, n.sustainLength, n.animCall]);
 		else
 			_song.notes[curSection].sectionNotes.push([noteStrum, noteData, noteSus, noteAnimCall]);
 

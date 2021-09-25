@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="beanIncapacitated.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dead bean deading0000" x="0" y="0" width="403" height="170" frameX="0" frameY="-8" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0001" x="410" y="0" width="403" height="172" frameX="0" frameY="-6" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0002" x="0" y="179" width="403" height="173" frameX="0" frameY="-4" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0003" x="410" y="179" width="403" height="175" frameX="0" frameY="-2" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0004" x="0" y="361" width="403" height="177" frameX="0" frameY="0" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0005" x="0" y="361" width="403" height="177" frameX="0" frameY="0" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0006" x="0" y="361" width="403" height="177" frameX="0" frameY="0" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0007" x="0" y="361" width="403" height="177" frameX="0" frameY="0" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0008" x="0" y="361" width="403" height="177" frameX="0" frameY="0" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0009" x="0" y="361" width="403" height="177" frameX="0" frameY="0" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0010" x="0" y="361" width="403" height="177" frameX="0" frameY="0" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0011" x="0" y="361" width="403" height="177" frameX="0" frameY="0" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0012" x="0" y="361" width="403" height="177" frameX="0" frameY="0" frameWidth="403" frameHeight="178"/>
+	<SubTexture name="dead bean deading0013" x="0" y="361" width="403" height="177" frameX="0" frameY="0" frameWidth="403" frameHeight="178"/>
+</TextureAtlas>

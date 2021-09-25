@@ -27,4 +27,16 @@ curStep for code execution, mine simply uses it in a way that the string attatch
 Originally only used modcharts to changeBoyfriendCharacter into different alternate animations, but it looks way too janky for my perfectionist brain
 that decided to fucking spend 2 days coding something I'll probs only use once or twice... Story of my life.
 
+Letter ranks saving and viewable in Freeplay
+sourced from: Pull Request #898 (KE) https://github.com/KadeDev/Kade-Engine/pull/898
+Heavily modified to fit my style. Made it save letter ranks instead of the GFC, SDCB shit. Then after a while I considered adding an FC case.
+Utilized the FC bool in PlayState to detect an FC, and if it returns true, it overwrites the letter rankings except SS ofc.
+Also made FCs that ranks S+ & S++ display SFC (Superior Full Combo) instead, and ofc, SS (Pure Perfect) gets the highest priority.
+Since the original pull was already merged in Kade Engine, I just feel like this system I made is way more better, though as a noobie, might be inefficient.
+
+Freeplay Delay
+sourced from: Pull Request #540 https://github.com/ninjamuffin99/Funkin/pull/540
+Got tired of having to load all the songs scrolling down the freeplay menu causing about seconds worth of delay when I only wanna test one song.
+Nothing special... just that.
+
 */

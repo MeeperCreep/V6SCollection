@@ -33,13 +33,23 @@ class Highscore
 			}
 			else
 				setScore(daSong, score);
-		}else trace('BotPlay detected. Score saving is disabled.');
+		}
+		else
+			trace('Autoplay detected. Score saving is disabled.');
 	}
 	
 	public static function saveCombo(song:String, combo:String, ?diff:Int = 0):Void
 	{
 		var daSong:String = formatSong(song, diff);
 		var finalCombo:String = combo.split(')')[1].replace(' ', '');
+		var ratingCheck:String = combo.split(')')[0].replace('(', '');
+		
+		// considerations for full combos!
+		if (finalCombo.startsWith("S+") && ratingCheck == "Perfect") finalCombo = 'SFC+';
+		else if (ratingCheck == "Perfect") finalCombo = 'SFC';
+		else if (finalCombo.startsWith("S+") && ratingCheck == "Full Combo") finalCombo = 'FC+';
+		else if (ratingCheck == "Full Combo") finalCombo = 'FC';
+		else if (ratingCheck == "Choked-FC") finalCombo = 'ONE-MISS'; // just to rub it in your face :)
 
 		if(!FlxG.save.data.botplay)
 		{
@@ -71,7 +81,9 @@ class Highscore
 			}
 			else
 				setScore(daWeek, score);
-		}else trace('Autoplay detected. Score saving is disabled.');
+		}
+		else
+			trace('Autoplay detected. Score saving is disabled.');
 	}
 
 	/**
@@ -106,21 +118,27 @@ class Highscore
 	{
 		switch(combo)
 		{
-			case 'E': return 1;
-			case 'D': return 2;
-			case 'D+': return 3;
-			case 'C-': return 4;
-			case 'C': return 5;
-			case 'C+': return 6;
-			case 'B-': return 7;
-			case 'B': return 8;
-			case 'B+': return 9;
-			case 'A-': return 10;
-			case 'A': return 11;
-			case 'A+': return 12;
-			case 'S': return 13;
-			case 'S+': return 14;
-			case 'S++': return 15;
+			case 'F': return 1;
+			case 'E': return 2;
+			case 'D': return 3;
+			case 'D+': return 4;
+			case 'C-': return 5;
+			case 'C': return 6;
+			case 'C+': return 7;
+			case 'B-': return 8;
+			case 'B': return 9;
+			case 'B+': return 10;
+			case 'A-': return 11;
+			case 'A': return 12;
+			case 'A+': return 13;
+			case 'S': return 14;
+			case 'S+': return 15;
+			case 'S++': return 16;
+			case 'ONE-MISS': return 17;
+			case 'FC': return 18;
+			case 'FC+': return 19;
+			case 'SFC': return 20;
+			case 'SFC+': return 21;
 			case 'SS': return 99; // you can't beat the perfect >:)
 			default: return 0;
 		}
