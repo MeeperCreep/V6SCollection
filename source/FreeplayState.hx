@@ -114,7 +114,7 @@ class FreeplayState extends MusicBeatState
 		diffText.font = scoreText.font;
 		add(diffText);
 		
-		comboText = new FlxText(diffText.x + 140, diffText.y, 0, "", 24);
+		comboText = new FlxText(diffText.x + 190, diffText.y, 0, "", 24);
 		comboText.font = diffText.font;
 		add(comboText);
 
@@ -228,7 +228,12 @@ class FreeplayState extends MusicBeatState
 
 	function changeDiff(change:Int = 0)
 	{
-		if(songs[curSelected].songName.toLowerCase() == "refrain")
+		if (songs[curSelected].songName.toLowerCase() == "interdimensional")
+		{
+			curDifficulty = 1;
+			diffText.text = "SOUPR-HARD";
+		}
+		else if (songs[curSelected].songName.toLowerCase() == "refrain")
 		{
 			curDifficulty = 1; //locks it to hard difficulty, temporary solution until we get da normal diff charting lol
 			diffText.text = "HARD";
@@ -247,7 +252,7 @@ class FreeplayState extends MusicBeatState
 				case 0:
 					diffText.text = "NORMAL";
 				case 1:
-					diffText.text = 'HARD';
+					diffText.text = "HARD";
 			}
 		}
 		

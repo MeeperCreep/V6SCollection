@@ -8,3 +8,4 @@ catsoup
 catsoup-hissed
 bf-withcreeper
 meepster
+dansoup

@@ -43,6 +43,8 @@ class HealthIcon extends FlxSprite
 		animation.add('catsouper-hiss', [52], 0, false, isPlayer);
 		animation.add('nightcorer', [53], 0, false, isPlayer);
 		animation.add('mtt-meeper', [54], 0, false, isPlayer);
+		animation.add('nd-dansoup', [55], 0, false, isPlayer);
+		animation.add('nd-dansoupdr', [56], 0, false, isPlayer);
 		
 		animation.play(char);
 

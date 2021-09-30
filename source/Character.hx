@@ -398,6 +398,23 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 				
+			case 'dansoup':
+				frames = Paths.getSparrowAtlas('characters/DANSOUP_PRIME');
+				animation.addByPrefix('idle', 'cat_idle', 24);
+				
+				animation.addByPrefix('singUP', 'cat_up', 24);
+				animation.addByPrefix('singRIGHT', 'cat_right', 24);
+				animation.addByPrefix('singDOWN', 'cat_down', 24);
+				animation.addByPrefix('singLEFT', 'cat_left', 24);
+				
+				addOffset('idle');
+				addOffset("singUP", 10, 60);
+				addOffset("singRIGHT", -20);
+				addOffset("singLEFT", 50);
+				addOffset("singDOWN", 10);
+
+				playAnim('idle');
+				
 			case 'meepster':
 				frames = Paths.getSparrowAtlas('characters/meep_TEMP');
 				animation.addByPrefix('idle', 'meep idle', 24);

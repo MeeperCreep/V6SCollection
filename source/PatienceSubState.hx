@@ -16,7 +16,7 @@ class PatienceSubState extends MusicBeatState
 	{
 		super.create();
 		FlxG.sound.music.fadeIn(0.5, 0.1, 0.7);
-		var timely:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('creepertown/slowly-but-surely', 'weekseub'));
+		var timely:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('worth', 'weekseub'));
 		add(timely);
 		FlxG.camera.fade(FlxColor.BLACK, 0.8, true);
 	}
