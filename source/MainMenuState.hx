@@ -38,7 +38,7 @@ class MainMenuState extends MusicBeatState
 	public static var firstStart:Bool = true;
 
 	public static var kadeEngineVer:String = "1.5.1";
-	public static var gameVer:String = "1.3";
+	public static var gameVer:String = "1.3.1";
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;

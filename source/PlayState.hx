@@ -534,10 +534,10 @@ class PlayState extends MusicBeatState
 					spotlight.active = false;
 					add(spotlight);
 				}
-			case 'o1sNZn0gEyo':
+			case 'dimensionNight':
 				{
 					defaultCamZoom = 1.1;
-					curStage = 'o1sNZn0gEyo';
+					curStage = 'dimensionNight';
 					var bg:FlxSprite = new FlxSprite(-600, -300).loadGraphic(Paths.image('vs6sback_nc','xtracontent'));
 					bg.antialiasing = true;
 					bg.scrollFactor.set(1, 1);
@@ -2066,7 +2066,7 @@ class PlayState extends MusicBeatState
 
 	function endSong():Void
 	{
-		if (FlxG.save.data.nofail && !noFailFail)
+		if (FlxG.save.data.nofail && noFailFail)
 			blueBalld();
 		else
 		{
@@ -2240,7 +2240,7 @@ class PlayState extends MusicBeatState
 		var regenPenalty:Float = 0;
 		
 		if (dad.curCharacter == 'catsoup-hissed' && storyDifficulty == 1)
-			regenPenalty = 0.025; // threatening aura
+			regenPenalty = 0.026; // threatening aura
 		if (SONG.stage == 'kboysDrippin' && storyDifficulty == 1)
 			regenPenalty = 0.04; // threatening aura (stronger)
 		if (SONG.song.toLowerCase() == 'interdimensional')
@@ -2366,8 +2366,6 @@ class PlayState extends MusicBeatState
 
 			if (currentTimingShown.alpha != 0.7)
 				currentTimingShown.alpha = 0.7;
-
-			if(!FlxG.save.data.botplay) add(currentTimingShown);
 			
 			var comboSpr:FlxSprite = new FlxSprite().loadGraphic(Paths.image('combo'));
 			comboSpr.screenCenter();
@@ -2385,6 +2383,7 @@ class PlayState extends MusicBeatState
 			comboSpr.velocity.x += FlxG.random.int(1, 10);
 			currentTimingShown.velocity.x += comboSpr.velocity.x;
 			if(!FlxG.save.data.botplay) add(rating);
+			if(!FlxG.save.data.botplay) add(currentTimingShown);
 			
 			rating.setGraphicSize(Std.int(rating.width * 0.7));
 			rating.antialiasing = true;
@@ -3109,12 +3108,12 @@ class PlayState extends MusicBeatState
 		{
 			if (curBeat >= 352 && curBeat < 416 && FlxG.camera.zoom < 4.05)
 			{
-				FlxG.camera.zoom += 0.045;
+				FlxG.camera.zoom += 0.015;
 				camHUD.zoom += 0.03;
 			}
 			else if (curBeat >= 640 && curBeat < 704 && FlxG.camera.zoom < 4.05)
 			{
-				FlxG.camera.zoom += 0.045;
+				FlxG.camera.zoom += 0.015;
 				camHUD.zoom += 0.03;
 			}
 		}

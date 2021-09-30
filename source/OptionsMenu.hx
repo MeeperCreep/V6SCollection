@@ -65,7 +65,6 @@ class OptionsMenu extends MusicBeatState
 			new BotPlay("Showcase your charts and mods with autoplay."),
 			new NoFail("You will not die from health loss until the song ends."),
 			new StupidAnnoyingPopSFX("Plays a sound effect whenever you hit note."),
-			new OffsetMenu("Get a note offset based off of your inputs!")
 		])
 		
 	];
